@@ -4,3 +4,7 @@
 
 * run `cors-anywhere`
 * run `my-app`
+
+### TODO
+
+* set up Git LFS
