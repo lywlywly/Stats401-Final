@@ -1,95 +1,83 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+"use client";
+// import styles from "./page.module.css";
+import { getForwardedGacha, getGacha } from "@/script/api/gacha";
+import { useState } from "react";
 
 export default function Home() {
+  const [gachaList, setGachaList] = useState({
+    data: {
+      list: [
+        {
+          uid: "",
+          gacha_type: "200",
+          name: "",
+          time: "2023-09-13 15:00:00",
+          item_type: "武器",
+          lang: "zh-cn",
+          rank_type: "3",
+          id: "1694588760000046658",
+        },
+      ],
+    },
+  });
+
+  const getFirst = async () => {
+    try {
+      let data = await getForwardedGacha({
+        authToken:
+          "8NrolP3BfxIxpBNhBAtUSLvArHwKyxadx80H0ifXUs2pJSbUdBpEWztY%2FKtITRTfwJBLxH6m8YJsRIl5WBHwG5BwGw3SYMflxTMmF3gI%2F6W9DQIMZ8aYNOCN2RWHhF30KQ%2B3ZhQqxwI%2FEL%2BTWUjeFcbyeLglPhtVOjYpWOYPLNzC7M8EzZNpi3%2FrzD0EhLD%2BJZObVtQ6NsyRbXwyQqUVo6sgQnzKUXPJfa823ieTuOKcz1eO%2Ba5b%2FsDPszjo7izlWXaKxXLVshyTfjZDp%2BeNt22EK0q2IYVHrhvdfsHghZX%2F3vRXJjSaRT1JpFFNfHTlFruuC5YH28pU0qCGIgpyPA%3D%3D",
+        gachaCode: 301,
+        end_id: 0,
+      });
+      setGachaList(data);
+      console.log(gachaList);
+    } catch (e) {
+      console.log(e);
+    }
+    console.log(gachaList);
+    for (let entry of gachaList.data.list) {
+      console.log(entry);
+    }
+    setTimeout(print, 3000);
+  };
+
+  const print = () => {
+    for (let entry of gachaList.data.list) {
+      console.log(entry);
+    }
+  };
+
+  const next = async () => {
+    try {
+      let data = await getForwardedGacha({
+        authToken:
+          "8NrolP3BfxIxpBNhBAtUSLvArHwKyxadx80H0ifXUs2pJSbUdBpEWztY%2FKtITRTfwJBLxH6m8YJsRIl5WBHwG5BwGw3SYMflxTMmF3gI%2F6W9DQIMZ8aYNOCN2RWHhF30KQ%2B3ZhQqxwI%2FEL%2BTWUjeFcbyeLglPhtVOjYpWOYPLNzC7M8EzZNpi3%2FrzD0EhLD%2BJZObVtQ6NsyRbXwyQqUVo6sgQnzKUXPJfa823ieTuOKcz1eO%2Ba5b%2FsDPszjo7izlWXaKxXLVshyTfjZDp%2BeNt22EK0q2IYVHrhvdfsHghZX%2F3vRXJjSaRT1JpFFNfHTlFruuC5YH28pU0qCGIgpyPA%3D%3D",
+        gachaCode: 301,
+        end_id: gachaList.data.list[19].id,
+      });
+      setGachaList(data);
+      console.log(gachaList);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  const getImgPath = (character_name: string) => {
+    return `/characters/${character_name}.png`;
+  };
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main>
+      <button onClick={getFirst}>让飞告诉你!</button>
+      <button onClick={next}>下一页!</button>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <ul>
+        {gachaList.data.list.map((entry) => (
+          <li>
+            <img src={getImgPath(entry.name)} width="50"></img> {entry.name}
+          </li>
+        ))}
+      </ul>
     </main>
-  )
+  );
 }
