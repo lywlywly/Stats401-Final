@@ -1,5 +1,20 @@
 // let proxyServer = "http://vcm-33442.vm.duke.edu:8080/";
-let proxyServer = "http://10.203.35.85:8080/";
+let proxyServer = "http://localhost:8080/";
+
+interface ParsedUrlParemeters {
+  [key: string]: any;
+}
+
+export function getParemetersFromUrl(url: string) {
+  if (!url) url = location.search;
+  var query = url.split("?")[1];
+  var result: ParsedUrlParemeters = {};
+  query.split("&").forEach(function (part) {
+    var item = part.split("=");
+    result[item[0]] = decodeURIComponent(item[1]);
+  });
+  return result;
+}
 
 export const test = (): Promise<Response> =>
   fetch(`https://jsonplaceholder.typicode.com/posts`);
