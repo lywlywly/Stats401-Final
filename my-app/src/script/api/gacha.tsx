@@ -1,6 +1,6 @@
 // let proxyServer = "http://vcm-33442.vm.duke.edu:8080/";
 let proxyServer = "http://localhost:8080/";
-
+import { ParsedURL, parseURL } from "../url_factory";
 interface ParsedUrlParemeters {
   [key: string]: any;
 }
@@ -40,12 +40,15 @@ export const getForwardedGacha = async (
     gachaCode: 3,
     end_id: 4,
   }
-): Promise<any> =>
-  (
-    await fetch(
-      `${proxyServer}https://hk4e-api.mihoyo.com/event/gacha_info/api/getGachaLog?win_mode=fullscreen&authkey_ver=1&sign_type=2&auth_appid=webview_gacha&init_type=${gachaCode}&gacha_id=b4ac24d133739b7b1d55173f30ccf980e0b73fc1&lang=en-us&device_type=mobile&game_version=CNRELiOS3.0.0_R10283122_S10446836_D10316937&plat_type=ios&game_biz=hk4e_cn&size=20&authkey=${authToken}&region=cn_gf01&timestamp=1664481732&gacha_type=${gachaCode}&end_id=${end_id}`
-    )
-  ).json();
+): Promise<any> => {
+  const url =
+    "https://hk4e-api-os.hoyoverse.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=en-US&gacha_type=301&size=20&end_id=1695895560000827179";
+  const parsedURL = parseURL(url);
+  parsedURL.queryParams.authkey = authToken;
+  const urlString = parsedURL.toURLString();
+  console.log(urlString);
+  return (await fetch(`${proxyServer}${urlString}`)).json();
+};
 
 var foo = async () => await Promise.resolve("ha");
 
