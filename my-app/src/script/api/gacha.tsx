@@ -29,20 +29,35 @@ export const getGacha = async (): Promise<any> =>
 export const getForwardedGacha = async (
   {
     authToken,
+    server,
     gachaCode,
     end_id,
   }: {
     authToken: any;
+    server: any;
     gachaCode: any;
     end_id: any;
   } = {
     authToken: 1,
+    server: 0,
     gachaCode: 3,
     end_id: 4,
   }
 ): Promise<any> => {
-  const url =
-    "https://hk4e-api-os.hoyoverse.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=en-US&gacha_type=301&size=20&end_id=1695895560000827179";
+  let serverHost: String;
+  switch (server) {
+    case 0:
+      // cn
+      serverHost = "hk4e-api.mihoyo";
+      break;
+    case 1:
+      // global
+      serverHost = "hk4e-api-os.hoyoverse";
+      break;
+    default:
+      serverHost = "mihoyo";
+  }
+  const url = `https://${serverHost}.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=en-US&gacha_type=301&size=20&end_id=1695895560000827179`;
   const parsedURL = parseURL(url);
   parsedURL.queryParams.authkey = authToken;
   const urlString = parsedURL.toURLString();
