@@ -40,16 +40,19 @@ export const getForwardedGacha = async (
     authToken,
     server,
     gachaCode,
+    language,
     end_id,
   }: {
     authToken: any;
     server: any;
     gachaCode: any;
+    language: any;
     end_id: any;
   } = {
     authToken: 1,
     server: 0,
     gachaCode: 3,
+    language: "en-US",
     end_id: 0,
   }
 ): Promise<any> => {
@@ -67,7 +70,7 @@ export const getForwardedGacha = async (
     default:
       serverHost = "mihoyo";
   }
-  const url = `https://${serverHost}.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=en-US&gacha_type=301&size=20&end_id=${end_id}`;
+  const url = `https://${serverHost}.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=${language}&gacha_type=301&size=20&end_id=${end_id}`;
   const parsedURL = parseURL(url);
   parsedURL.queryParams.authkey = authToken;
   const urlString = parsedURL.toURLString();
@@ -80,21 +83,25 @@ export const getAll = async (
     authToken,
     server,
     gachaCode,
+    language,
     end_id,
   }: {
     authToken: any;
     server: any;
     gachaCode: any;
+    language: any;
     end_id: any;
   } = {
     authToken: 1,
     server: 0,
     gachaCode: 3,
+    language: "en-US",
     end_id: 4,
   }
 ): Promise<any> => {
   let last_id = 0;
   let data;
+  let en_data;
   let result: string | any[] = [];
   let i = 1;
   // for (let i of Array.from({ length: 20 }, (x, i) => i))
@@ -107,10 +114,23 @@ export const getAll = async (
         authToken: authToken,
         server: server,
         gachaCode: gachaCode,
+        language: language,
+        end_id: last_id,
+      })
+    ).data.list;
+    en_data = (
+      await getForwardedGacha({
+        authToken: authToken,
+        server: server,
+        gachaCode: gachaCode,
+        language: "en-US",
         end_id: last_id,
       })
     ).data.list;
     if (data.length == 0) break;
+    for (let i in data) {
+      data[i].en_name = en_data[i].name;
+    }
     result = result.concat(data);
     last_id = data[data.length - 1].id;
   }
