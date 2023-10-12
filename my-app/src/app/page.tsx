@@ -18,6 +18,9 @@ export default function Home() {
         </li>{" "}
         <li>
           <Link href="/network">Network</Link>
+        </li>{" "}
+        <li>
+          <Link href="/vis5">Visualization 5</Link>
         </li>
       </ul>
     </main>
