@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <img src="/Screenshot_20230428_034936.png" alt="" />
+        <img src="/zhangshunfei.png" alt="" />
         {children}
       </body>
     </html>

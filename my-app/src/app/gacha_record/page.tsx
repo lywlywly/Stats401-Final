@@ -4,10 +4,35 @@ import {
   getForwardedGacha,
   getGacha,
   getParemetersFromUrl,
+  getAll,
 } from "@/script/api/gacha";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import * as React from "react";
+import * as d3 from "d3";
+function drawChart() {
+  const data = [12, 5, 6, 6, 9, 10];
+  const h = 120;
+  const w = 250;
+  const svg = d3.select("div").append("svg");
+  console.log(d3.select("div"));
+  svg
+    .attr("width", w)
+    .attr("height", h)
+    .style("margin-top", 50)
+    .style("margin-left", 50);
 
+  svg
+    .selectAll("rect")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("x", (d, i) => i * 40)
+    .attr("y", (d, i) => h - 10 * d)
+    .attr("width", 20)
+    .attr("height", (d, i) => d * 10)
+    .attr("fill", "steelblue");
+}
 export default function Home() {
   const [gachaList, setGachaList] = useState({
     data: {
@@ -61,8 +86,14 @@ export default function Home() {
   };
 
   const print = () => {
-    console.log(gachaList);
-    console.log(imgSrc);
+    // console.log(gachaList);
+    // console.log(imgSrc);
+    getAll({
+      authToken: authToken,
+      server: server,
+      gachaCode: 301,
+      end_id: 0,
+    });
   };
 
   const next = async () => {
@@ -87,6 +118,10 @@ export default function Home() {
   const getImgPath = (character_name: string) => {
     return `/characters/${character_name}.png`;
   };
+
+  React.useEffect(() => {
+    drawChart();
+  });
 
   return (
     <main>
@@ -142,6 +177,7 @@ export default function Home() {
           </li>
         ))}
       </ul>
+      <div></div>
     </main>
   );
 }

@@ -1,6 +1,15 @@
 // let proxyServer = "http://vcm-33442.vm.duke.edu:8080/";
 let proxyServer = "http://localhost:8080/";
 import { ParsedURL, parseURL } from "../url_factory";
+import stars_dict from "./stars_dict.json";
+
+interface MyData {
+  [key: string]: string;
+}
+
+const data_cast: MyData = stars_dict;
+console.log(stars_dict);
+console.log(data_cast);
 interface ParsedUrlParemeters {
   [key: string]: any;
 }
@@ -41,10 +50,11 @@ export const getForwardedGacha = async (
     authToken: 1,
     server: 0,
     gachaCode: 3,
-    end_id: 4,
+    end_id: 0,
   }
 ): Promise<any> => {
   let serverHost: String;
+  console.log(end_id);
   switch (server) {
     case 0:
       // cn
@@ -57,12 +67,67 @@ export const getForwardedGacha = async (
     default:
       serverHost = "mihoyo";
   }
-  const url = `https://${serverHost}.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=en-US&gacha_type=301&size=20&end_id=1695895560000827179`;
+  const url = `https://${serverHost}.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=en-US&gacha_type=301&size=20&end_id=${end_id}`;
   const parsedURL = parseURL(url);
   parsedURL.queryParams.authkey = authToken;
   const urlString = parsedURL.toURLString();
   console.log(urlString);
   return (await fetch(`${proxyServer}${urlString}`)).json();
+};
+
+export const getAll = async (
+  {
+    authToken,
+    server,
+    gachaCode,
+    end_id,
+  }: {
+    authToken: any;
+    server: any;
+    gachaCode: any;
+    end_id: any;
+  } = {
+    authToken: 1,
+    server: 0,
+    gachaCode: 3,
+    end_id: 4,
+  }
+): Promise<any> => {
+  let last_id = 0;
+  let data;
+  let result: string | any[] = [];
+  let i = 1;
+  // for (let i of Array.from({ length: 20 }, (x, i) => i))
+  while (true) {
+    console.log(i);
+    i++;
+    console.log(last_id);
+    data = (
+      await getForwardedGacha({
+        authToken: authToken,
+        server: server,
+        gachaCode: gachaCode,
+        end_id: last_id,
+      })
+    ).data.list;
+    if (data.length == 0) break;
+    result = result.concat(data);
+    last_id = data[data.length - 1].id;
+  }
+  console.log(result);
+  return result;
+};
+
+interface Map {
+  [key: string]: number | undefined;
+}
+
+export const transform5Stars = (data: { name: "" }[]) => {
+  let stars_dct: Map = { a: 1 };
+  for (let e of data) {
+    if ((data_cast[e.name] = "5")) {
+    }
+  }
 };
 
 var foo = async () => await Promise.resolve("ha");
