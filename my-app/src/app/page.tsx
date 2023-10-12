@@ -11,14 +11,13 @@ export default function Home() {
     <main>
       <ul>
         <li>
-          <Link href="/gacha_record">
-            Gacha Record
-          </Link>
+          <Link href="/gacha_record">Gacha Record</Link>
         </li>
         <li>
-          <Link href="/d3_demo">
-            Hello D3.js!
-          </Link>
+          <Link href="/d3_demo">Hello D3.js!</Link>
+        </li>{" "}
+        <li>
+          <Link href="/network">Network</Link>
         </li>
       </ul>
     </main>
