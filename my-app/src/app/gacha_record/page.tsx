@@ -10,6 +10,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import * as React from "react";
 import * as d3 from "d3";
+import useInterval from "react-useinterval";
 
 const regular = [
   "Dehya",
@@ -24,23 +25,6 @@ const regular = [
 
 function init() {}
 export default function Home() {
-  const [gachaList, setGachaList] = useState({
-    data: {
-      list: [
-        {
-          uid: "",
-          gacha_type: "200",
-          name: "",
-          time: "2023-09-13 15:00:00",
-          item_type: "武器",
-          lang: "zh-cn",
-          rank_type: "3",
-          id: "1694588760000046658",
-        },
-      ],
-    },
-  });
-
   function drawChart() {
     const h = 1080;
     const w = 1080;
@@ -117,13 +101,30 @@ export default function Home() {
       item_id: "",
       count: "",
       time: "",
-      name: "",
+      name: "321",
       lang: "",
       item_type: "",
       rank_type: "",
       id: "",
     },
   ]);
+
+  const [gachaList, setGachaList] = useState({
+    data: {
+      list: [
+        {
+          uid: "",
+          gacha_type: "200",
+          name: "",
+          time: "2023-09-13 15:00:00",
+          item_type: "武器",
+          lang: "zh-cn",
+          rank_type: "3",
+          id: "1694588760000046658",
+        },
+      ],
+    },
+  });
 
   type ItemType = "Weapon" | "Armor" | "Accessory"; // Adjust the possible item types accordingly
 
@@ -3602,7 +3603,7 @@ export default function Home() {
     },
   ];
 
-  function process1(gachaDataCurrent: GachaItem[]) {
+  function generateFiveStarData(gachaDataCurrent: GachaItem[]) {
     const fiveStarItems: GachaItem[] = [];
     for (let i = 0; i < gachaDataCurrent.length; i++) {
       let item;
@@ -3648,7 +3649,10 @@ export default function Home() {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
-  async function processGradually() {
+  const [idx, setIdx] = useState(0);
+  const [isRunning, setIsRunning] = useState(false);
+
+  async function updateDataIntervalAsync() {
     // TODO:
     // let allData: GachaItem[] = await getAll({
     //   authToken: authToken,
@@ -3659,9 +3663,10 @@ export default function Home() {
     // });
     let allData = all;
     let reversedAll = allData.reverse();
+
     for (let i of Array.from({ length: allData.length }, (x, i) => i)) {
       await sleep(interval);
-      process1(reversedAll.slice(0, i));
+      generateFiveStarData(reversedAll.slice(0, i));
     }
   }
 
@@ -3710,12 +3715,13 @@ export default function Home() {
     console.log(allGachaResult);
   };
 
-  const pProcess1 = () => {
-    processGradually();
+  const launch = () => {
+    setIsRunning(true);
+    // updateDataInterval();
   };
 
-  const pProcess2 = () => {
-    console.log(allData);
+  const pause = () => {
+    setIsRunning(false);
   };
 
   const next = async () => {
@@ -3734,10 +3740,6 @@ export default function Home() {
     }
   };
 
-  // useEffect(() => {
-  //   next();
-  // }, []);
-
   const getImgPath = (character_name: string) => {
     return `/characters/${character_name}.png`;
   };
@@ -3746,14 +3748,35 @@ export default function Home() {
     drawChart();
   }, [allData]);
 
+  // TODO
+  let reversedAll = all.reverse();
+  let prevInterval = 0;
+  // useEffect(() => {
+  //   // if (idx == reversedAll.length)
+  //   if (isRunning) {
+  //     setTimeout(() => {
+  //       setIdx((idx) => idx + 1);
+  //       generateFiveStarData(reversedAll.slice(0, idx));
+  //       console.log(interval);
+  //     }, interval);
+  //   }
+  // }, [interval, isRunning, idx]);
+  useInterval(
+    () => {
+      setIdx((idx) => idx + 1);
+      generateFiveStarData(reversedAll.slice(0, idx));
+    },
+    isRunning ? interval : null
+  );
+
   return (
     <main>
       {/* <button onClick={print}>print</button> */}
       {/* <button onClick={getFirst}>让飞告诉你!</button>
       <button onClick={next}>下一页!</button>
       <button onClick={print}>print!</button> */}
-      <button onClick={pProcess1}>launch</button>
-      {/* <button onClick={pProcess2}>print!</button> */}
+      <button onClick={launch}>launch</button>
+      <button onClick={pause}>pause</button>
       <input
         type="text"
         onChange={(e) => {
@@ -3777,7 +3800,7 @@ export default function Home() {
         <option value="cn">cn</option>
         <option value="global">global</option>
       </select>
-      {server}
+      {/* {server} */}
       <input
         type="range"
         onChange={(e) => {
@@ -3786,9 +3809,13 @@ export default function Home() {
               Math.pow(Math.pow(1000, 1 / 100), parseInt(e.target.value))
             )
           );
+
+          // if (isRunning) {
+          //   pause();
+          //   sleep(100).then(launch);
+          // }
         }}
       ></input>
-      {interval}
       {/* <ul>
         {gachaList.data.list.map((entry, i) => (
           <li key={i}>
