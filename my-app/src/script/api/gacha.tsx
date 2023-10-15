@@ -68,7 +68,7 @@ export const getForwardedGacha = async (
       serverHost = "hk4e-api-os.hoyoverse";
       break;
     default:
-      serverHost = "mihoyo";
+      serverHost = "hk4e-api.mihoyo";
   }
   const url = `https://${serverHost}.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=${language}&gacha_type=301&size=20&end_id=${end_id}`;
   const parsedURL = parseURL(url);
@@ -149,7 +149,3 @@ export const transform5Stars = (data: { name: "" }[]) => {
     }
   }
 };
-
-var foo = async () => await Promise.resolve("ha");
-
-// export function foo()

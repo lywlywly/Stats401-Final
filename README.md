@@ -7,4 +7,3 @@
 
 ### TODO
 
-* set up Git LFS
