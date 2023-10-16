@@ -57,7 +57,6 @@ export const getForwardedGacha = async (
   }
 ): Promise<any> => {
   let serverHost: String;
-  console.log(end_id);
   switch (server) {
     case 0:
       // cn
@@ -78,6 +77,17 @@ export const getForwardedGacha = async (
   return (await fetch(`${proxyServer}${urlString}`)).json();
 };
 
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+export const asyncLoop = async (cb: (arg0: string) => void) => {
+  for (let i in Array.from({ length: 10 }, (v, i) => i)) {
+    cb(i);
+    await sleep(1000);
+  }
+};
+
 export const getAll = async (
   {
     authToken,
@@ -85,55 +95,55 @@ export const getAll = async (
     gachaCode,
     language,
     end_id,
+    onProgress,
+    setIsLoadingCallBack,
+    progress,
   }: {
     authToken: any;
     server: any;
     gachaCode: any;
     language: any;
     end_id: any;
+    onProgress: (arg0: string) => void;
+    setIsLoadingCallBack: (arg0: boolean) => void;
+    progress: any;
   } = {
     authToken: 1,
     server: 0,
     gachaCode: 3,
     language: "en-US",
     end_id: 4,
+    onProgress: () => {},
+    setIsLoadingCallBack: () => {},
+    progress: 1,
   }
 ): Promise<any> => {
   let last_id = 0;
-  let data;
-  let en_data;
   let result: string | any[] = [];
-  let i = 1;
-  // for (let i of Array.from({ length: 20 }, (x, i) => i))
+  let i = 0;
+  setIsLoadingCallBack(true);
   while (true) {
-    console.log(i);
-    i++;
-    console.log(last_id);
-    data = (
-      await getForwardedGacha({
-        authToken: authToken,
-        server: server,
-        gachaCode: gachaCode,
-        language: language,
-        end_id: last_id,
-      })
-    ).data.list;
-    en_data = (
-      await getForwardedGacha({
-        authToken: authToken,
-        server: server,
-        gachaCode: gachaCode,
-        language: "en-US",
-        end_id: last_id,
-      })
-    ).data.list;
+    onProgress(i.toString());
+    const requestOptions = {
+      authToken: authToken,
+      server: server,
+      gachaCode: gachaCode,
+      end_id: last_id,
+    };
+    const [res_data, res_en_data] = await Promise.all([
+      getForwardedGacha({ ...requestOptions, language: language }),
+      getForwardedGacha({ ...requestOptions, language: "en-US" }),
+    ]);
+    const [data, en_data] = [res_data, res_en_data].map((res) => res.data.list);
     if (data.length == 0) break;
-    for (let i in data) {
-      data[i].en_name = en_data[i].name;
-    }
+    data.forEach((item: { en_name: any }, i: string | number) => {
+      item.en_name = en_data[i].name;
+    });
     result = result.concat(data);
     last_id = data[data.length - 1].id;
+    ++i;
   }
+  setIsLoadingCallBack(false);
   console.log(result);
   return result;
 };

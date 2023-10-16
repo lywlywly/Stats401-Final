@@ -5,11 +5,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-26 11:34:24",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1695697560000255158"
+    "id": "1695697560000255158",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -17,11 +18,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-26 11:34:15",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1695697560000253358"
+    "id": "1695697560000253358",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -29,11 +31,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-25 22:38:07",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1695650760000982358"
+    "id": "1695650760000982358",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -41,11 +44,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-11 15:19:51",
-    "name": "Zhongli",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "钟离",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "5",
-    "id": "1694415960000308958"
+    "id": "1694415960000308958",
+    "en_name": "Zhongli"
   },
   {
     "uid": "100690258",
@@ -53,11 +57,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 11:00:25",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694228760000020558"
+    "id": "1694228760000020558",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -65,11 +70,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:23:08",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000388958"
+    "id": "1694196360000388958",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -77,11 +83,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:23:02",
-    "name": "Noelle",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "诺艾尔",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1694196360000387158"
+    "id": "1694196360000387158",
+    "en_name": "Noelle"
   },
   {
     "uid": "100690258",
@@ -89,11 +96,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000373658"
+    "id": "1694196360000373658",
+    "en_name": "Harbinger of Dawn"
   },
   {
     "uid": "100690258",
@@ -101,11 +109,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000373558"
+    "id": "1694196360000373558",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -113,11 +122,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000373458"
+    "id": "1694196360000373458",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -125,11 +135,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000373358"
+    "id": "1694196360000373358",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -137,11 +148,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000373258"
+    "id": "1694196360000373258",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -149,11 +161,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000373158"
+    "id": "1694196360000373158",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -161,11 +174,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000373058"
+    "id": "1694196360000373058",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -173,11 +187,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000372958"
+    "id": "1694196360000372958",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -185,11 +200,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1694196360000372858"
+    "id": "1694196360000372858",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -197,11 +213,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-09 02:22:04",
-    "name": "The Flute",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "笛剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "4",
-    "id": "1694196360000372758"
+    "id": "1694196360000372758",
+    "en_name": "The Flute"
   },
   {
     "uid": "100690258",
@@ -209,11 +226,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1693994760002184858"
+    "id": "1693994760002184858",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -221,11 +239,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1693994760002184758"
+    "id": "1693994760002184758",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -233,11 +252,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Freminet",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "菲米尼",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1693994760002184658"
+    "id": "1693994760002184658",
+    "en_name": "Freminet"
   },
   {
     "uid": "100690258",
@@ -245,11 +265,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Sayu",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "早柚",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1693994760002184558"
+    "id": "1693994760002184558",
+    "en_name": "Sayu"
   },
   {
     "uid": "100690258",
@@ -257,11 +278,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1693994760002184458"
+    "id": "1693994760002184458",
+    "en_name": "Harbinger of Dawn"
   },
   {
     "uid": "100690258",
@@ -269,11 +291,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1693994760002184358"
+    "id": "1693994760002184358",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -281,11 +304,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1693994760002184258"
+    "id": "1693994760002184258",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -293,11 +317,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1693994760002184158"
+    "id": "1693994760002184158",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -305,11 +330,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1693994760002184058"
+    "id": "1693994760002184058",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -317,11 +343,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-09-06 18:51:46",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1693994760002183958"
+    "id": "1693994760002183958",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -329,11 +356,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006800858"
+    "id": "1692198360006800858",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -341,11 +369,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006800758"
+    "id": "1692198360006800758",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -353,11 +382,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006800658"
+    "id": "1692198360006800658",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -365,11 +395,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "The Flute",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "笛剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "4",
-    "id": "1692198360006800558"
+    "id": "1692198360006800558",
+    "en_name": "The Flute"
   },
   {
     "uid": "100690258",
@@ -377,11 +408,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006800458"
+    "id": "1692198360006800458",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -389,11 +421,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006800358"
+    "id": "1692198360006800358",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -401,11 +434,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006800258"
+    "id": "1692198360006800258",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -413,11 +447,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006800158"
+    "id": "1692198360006800158",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -425,11 +460,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "Qiqi",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "七七",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "5",
-    "id": "1692198360006800058"
+    "id": "1692198360006800058",
+    "en_name": "Qiqi"
   },
   {
     "uid": "100690258",
@@ -437,11 +473,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:39",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006799958"
+    "id": "1692198360006799958",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -449,11 +486,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006737358"
+    "id": "1692198360006737358",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -461,11 +499,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006737258"
+    "id": "1692198360006737258",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -473,11 +512,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006737158"
+    "id": "1692198360006737158",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -485,11 +525,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Bennett",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "班尼特",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1692198360006737058"
+    "id": "1692198360006737058",
+    "en_name": "Bennett"
   },
   {
     "uid": "100690258",
@@ -497,11 +538,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006736958"
+    "id": "1692198360006736958",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -509,11 +551,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006736858"
+    "id": "1692198360006736858",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -521,11 +564,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006736758"
+    "id": "1692198360006736758",
+    "en_name": "Harbinger of Dawn"
   },
   {
     "uid": "100690258",
@@ -533,11 +577,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006736658"
+    "id": "1692198360006736658",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -545,11 +590,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006736558"
+    "id": "1692198360006736558",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -557,11 +603,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:42:17",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360006736458"
+    "id": "1692198360006736458",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -569,11 +616,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005465658"
+    "id": "1692198360005465658",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -581,11 +629,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005465558"
+    "id": "1692198360005465558",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -593,11 +642,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Barbara",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "芭芭拉",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1692198360005465458"
+    "id": "1692198360005465458",
+    "en_name": "Barbara"
   },
   {
     "uid": "100690258",
@@ -605,11 +655,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005465358"
+    "id": "1692198360005465358",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -617,11 +668,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005465258"
+    "id": "1692198360005465258",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -629,11 +681,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005465158"
+    "id": "1692198360005465158",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -641,11 +694,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005465058"
+    "id": "1692198360005465058",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -653,11 +707,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005464958"
+    "id": "1692198360005464958",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -665,11 +720,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005464858"
+    "id": "1692198360005464858",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -677,11 +733,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:46",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005464758"
+    "id": "1692198360005464758",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -689,11 +746,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005442258"
+    "id": "1692198360005442258",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -701,11 +759,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005442158"
+    "id": "1692198360005442158",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -713,11 +772,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Bennett",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "班尼特",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1692198360005442058"
+    "id": "1692198360005442058",
+    "en_name": "Bennett"
   },
   {
     "uid": "100690258",
@@ -725,11 +785,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005441958"
+    "id": "1692198360005441958",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -737,11 +798,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005441858"
+    "id": "1692198360005441858",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -749,11 +811,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005441758"
+    "id": "1692198360005441758",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -761,11 +824,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005441658"
+    "id": "1692198360005441658",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -773,11 +837,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005441558"
+    "id": "1692198360005441558",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -785,11 +850,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005441458"
+    "id": "1692198360005441458",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -797,11 +863,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:38",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005441358"
+    "id": "1692198360005441358",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -809,11 +876,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005424158"
+    "id": "1692198360005424158",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -821,11 +889,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Bennett",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "班尼特",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1692198360005424058"
+    "id": "1692198360005424058",
+    "en_name": "Bennett"
   },
   {
     "uid": "100690258",
@@ -833,11 +902,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005423958"
+    "id": "1692198360005423958",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -845,11 +915,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005423858"
+    "id": "1692198360005423858",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -857,11 +928,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005423758"
+    "id": "1692198360005423758",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -869,11 +941,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005423658"
+    "id": "1692198360005423658",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -881,11 +954,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005423558"
+    "id": "1692198360005423558",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -893,11 +967,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005423458"
+    "id": "1692198360005423458",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -905,11 +980,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005423358"
+    "id": "1692198360005423358",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -917,11 +993,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:34:28",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005423258"
+    "id": "1692198360005423258",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -929,11 +1006,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005174758"
+    "id": "1692198360005174758",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -941,11 +1019,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Lynette",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "琳妮特",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1692198360005174658"
+    "id": "1692198360005174658",
+    "en_name": "Lynette"
   },
   {
     "uid": "100690258",
@@ -953,11 +1032,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005174558"
+    "id": "1692198360005174558",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -965,11 +1045,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005174458"
+    "id": "1692198360005174458",
+    "en_name": "Harbinger of Dawn"
   },
   {
     "uid": "100690258",
@@ -977,11 +1058,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005174358"
+    "id": "1692198360005174358",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -989,11 +1071,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005174258"
+    "id": "1692198360005174258",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -1001,11 +1084,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005174158"
+    "id": "1692198360005174158",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -1013,11 +1097,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005174058"
+    "id": "1692198360005174058",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -1025,11 +1110,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005173958"
+    "id": "1692198360005173958",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -1037,11 +1123,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:35",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005173858"
+    "id": "1692198360005173858",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -1049,11 +1136,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005139258"
+    "id": "1692198360005139258",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -1061,11 +1149,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Sayu",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "早柚",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1692198360005139158"
+    "id": "1692198360005139158",
+    "en_name": "Sayu"
   },
   {
     "uid": "100690258",
@@ -1073,11 +1162,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005139058"
+    "id": "1692198360005139058",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -1085,11 +1175,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005138958"
+    "id": "1692198360005138958",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -1097,11 +1188,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005138858"
+    "id": "1692198360005138858",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -1109,11 +1201,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005138758"
+    "id": "1692198360005138758",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -1121,11 +1214,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Bennett",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "班尼特",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1692198360005138658"
+    "id": "1692198360005138658",
+    "en_name": "Bennett"
   },
   {
     "uid": "100690258",
@@ -1133,11 +1227,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005138558"
+    "id": "1692198360005138558",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -1145,11 +1240,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005138458"
+    "id": "1692198360005138458",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -1157,11 +1253,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:32:24",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005138358"
+    "id": "1692198360005138358",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -1169,11 +1266,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005017558"
+    "id": "1692198360005017558",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -1181,11 +1279,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005017458"
+    "id": "1692198360005017458",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -1193,11 +1292,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005017358"
+    "id": "1692198360005017358",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -1205,11 +1305,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Favonius Warbow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "西风猎弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "4",
-    "id": "1692198360005017258"
+    "id": "1692198360005017258",
+    "en_name": "Favonius Warbow"
   },
   {
     "uid": "100690258",
@@ -1217,11 +1318,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005017158"
+    "id": "1692198360005017158",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -1229,11 +1331,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005017058"
+    "id": "1692198360005017058",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -1241,11 +1344,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Bennett",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "班尼特",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1692198360005016958"
+    "id": "1692198360005016958",
+    "en_name": "Bennett"
   },
   {
     "uid": "100690258",
@@ -1253,11 +1357,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005016858"
+    "id": "1692198360005016858",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -1265,11 +1370,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005016758"
+    "id": "1692198360005016758",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -1277,11 +1383,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-08-16 23:31:33",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1692198360005016658"
+    "id": "1692198360005016658",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -1289,11 +1396,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560052565258"
+    "id": "1690279560052565258",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -1301,11 +1409,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560052565158"
+    "id": "1690279560052565158",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -1313,11 +1422,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560052565058"
+    "id": "1690279560052565058",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -1325,11 +1435,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560052564958"
+    "id": "1690279560052564958",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -1337,11 +1448,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Sangonomiya Kokomi",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "珊瑚宫心海",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "5",
-    "id": "1690279560052564858"
+    "id": "1690279560052564858",
+    "en_name": "Sangonomiya Kokomi"
   },
   {
     "uid": "100690258",
@@ -1349,11 +1461,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560052564758"
+    "id": "1690279560052564758",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -1361,11 +1474,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Faruzan",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "珐露珊",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1690279560052564658"
+    "id": "1690279560052564658",
+    "en_name": "Faruzan"
   },
   {
     "uid": "100690258",
@@ -1373,11 +1487,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560052564558"
+    "id": "1690279560052564558",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -1385,11 +1500,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560052564458"
+    "id": "1690279560052564458",
+    "en_name": "Harbinger of Dawn"
   },
   {
     "uid": "100690258",
@@ -1397,11 +1513,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:57",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560052564358"
+    "id": "1690279560052564358",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -1409,11 +1526,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560051816358"
+    "id": "1690279560051816358",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -1421,11 +1539,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560051816258"
+    "id": "1690279560051816258",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -1433,11 +1552,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560051816158"
+    "id": "1690279560051816158",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -1445,11 +1565,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560051816058"
+    "id": "1690279560051816058",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -1457,11 +1578,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560051815958"
+    "id": "1690279560051815958",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -1469,11 +1591,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560051815858"
+    "id": "1690279560051815858",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -1481,11 +1604,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Rosaria",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "罗莎莉亚",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1690279560051815758"
+    "id": "1690279560051815758",
+    "en_name": "Rosaria"
   },
   {
     "uid": "100690258",
@@ -1493,11 +1617,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560051815658"
+    "id": "1690279560051815658",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -1505,11 +1630,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560051815558"
+    "id": "1690279560051815558",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -1517,11 +1643,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:10:38",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560051815458"
+    "id": "1690279560051815458",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -1529,11 +1656,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560029139858"
+    "id": "1690279560029139858",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -1541,11 +1669,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560029139758"
+    "id": "1690279560029139758",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -1553,11 +1682,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560029139658"
+    "id": "1690279560029139658",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -1565,11 +1695,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560029139558"
+    "id": "1690279560029139558",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -1577,11 +1708,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560029139458"
+    "id": "1690279560029139458",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -1589,11 +1721,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Faruzan",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "珐露珊",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1690279560029139358"
+    "id": "1690279560029139358",
+    "en_name": "Faruzan"
   },
   {
     "uid": "100690258",
@@ -1601,11 +1734,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560029139258"
+    "id": "1690279560029139258",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -1613,11 +1747,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560029139158"
+    "id": "1690279560029139158",
+    "en_name": "Harbinger of Dawn"
   },
   {
     "uid": "100690258",
@@ -1625,11 +1760,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560029139058"
+    "id": "1690279560029139058",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -1637,11 +1773,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:04:14",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560029138958"
+    "id": "1690279560029138958",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -1649,11 +1786,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560017131958"
+    "id": "1690279560017131958",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -1661,11 +1799,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560017131858"
+    "id": "1690279560017131858",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -1673,11 +1812,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560017131758"
+    "id": "1690279560017131758",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -1685,11 +1825,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560017131658"
+    "id": "1690279560017131658",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -1697,11 +1838,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560017131558"
+    "id": "1690279560017131558",
+    "en_name": "Ferrous Shadow"
   },
   {
     "uid": "100690258",
@@ -1709,11 +1851,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Rosaria",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "罗莎莉亚",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1690279560017131458"
+    "id": "1690279560017131458",
+    "en_name": "Rosaria"
   },
   {
     "uid": "100690258",
@@ -1721,11 +1864,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560017131358"
+    "id": "1690279560017131358",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -1733,11 +1877,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560017131258"
+    "id": "1690279560017131258",
+    "en_name": "Harbinger of Dawn"
   },
   {
     "uid": "100690258",
@@ -1745,11 +1890,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560017131158"
+    "id": "1690279560017131158",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -1757,11 +1903,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:02:17",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560017131058"
+    "id": "1690279560017131058",
+    "en_name": "Skyrider Sword"
   },
   {
     "uid": "100690258",
@@ -1769,11 +1916,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560009125858"
+    "id": "1690279560009125858",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -1781,11 +1929,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560009125758"
+    "id": "1690279560009125758",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -1793,11 +1942,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560009125658"
+    "id": "1690279560009125658",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -1805,11 +1955,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560009125558"
+    "id": "1690279560009125558",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -1817,11 +1968,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560009125458"
+    "id": "1690279560009125458",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -1829,11 +1981,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Favonius Warbow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "西风猎弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "4",
-    "id": "1690279560009125358"
+    "id": "1690279560009125358",
+    "en_name": "Favonius Warbow"
   },
   {
     "uid": "100690258",
@@ -1841,11 +1994,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560009125258"
+    "id": "1690279560009125258",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -1853,11 +2007,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560009125158"
+    "id": "1690279560009125158",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -1865,11 +2020,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560009125058"
+    "id": "1690279560009125058",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -1877,11 +2033,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:01:17",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560009124958"
+    "id": "1690279560009124958",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -1889,11 +2046,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560005592958"
+    "id": "1690279560005592958",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -1901,11 +2059,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560005592858"
+    "id": "1690279560005592858",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -1913,11 +2072,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560005592758"
+    "id": "1690279560005592758",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -1925,11 +2085,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560005592658"
+    "id": "1690279560005592658",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -1937,11 +2098,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560005592558"
+    "id": "1690279560005592558",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -1949,11 +2111,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Faruzan",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "珐露珊",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1690279560005592458"
+    "id": "1690279560005592458",
+    "en_name": "Faruzan"
   },
   {
     "uid": "100690258",
@@ -1961,11 +2124,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560005592358"
+    "id": "1690279560005592358",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -1973,11 +2137,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560005592258"
+    "id": "1690279560005592258",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -1985,11 +2150,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560005592158"
+    "id": "1690279560005592158",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -1997,11 +2163,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:52",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560005592058"
+    "id": "1690279560005592058",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -2009,11 +2176,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560003653158"
+    "id": "1690279560003653158",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -2021,11 +2189,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560003653058"
+    "id": "1690279560003653058",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -2033,11 +2202,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560003652958"
+    "id": "1690279560003652958",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -2045,11 +2215,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560003652858"
+    "id": "1690279560003652858",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -2057,11 +2228,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560003652758"
+    "id": "1690279560003652758",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -2069,11 +2241,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Faruzan",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "珐露珊",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1690279560003652658"
+    "id": "1690279560003652658",
+    "en_name": "Faruzan"
   },
   {
     "uid": "100690258",
@@ -2081,11 +2254,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560003652558"
+    "id": "1690279560003652558",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -2093,11 +2267,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560003652458"
+    "id": "1690279560003652458",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -2105,11 +2280,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560003652358"
+    "id": "1690279560003652358",
+    "en_name": "Thrilling Tales of Dragon Slayers"
   },
   {
     "uid": "100690258",
@@ -2117,11 +2293,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-07-25 18:00:38",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1690279560003652258"
+    "id": "1690279560003652258",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -2129,11 +2306,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:59",
-    "name": "Kaedehara Kazuha",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "枫原万叶",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "5",
-    "id": "1686675960002361258"
+    "id": "1686675960002361258",
+    "en_name": "Kaedehara Kazuha"
   },
   {
     "uid": "100690258",
@@ -2141,11 +2319,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002333858"
+    "id": "1686675960002333858",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -2153,11 +2332,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002333758"
+    "id": "1686675960002333758",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -2165,11 +2345,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002333658"
+    "id": "1686675960002333658",
+    "en_name": "Harbinger of Dawn"
   },
   {
     "uid": "100690258",
@@ -2177,11 +2358,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Xiangling",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "香菱",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1686675960002333558"
+    "id": "1686675960002333558",
+    "en_name": "Xiangling"
   },
   {
     "uid": "100690258",
@@ -2189,11 +2371,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002333458"
+    "id": "1686675960002333458",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -2201,11 +2384,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002333358"
+    "id": "1686675960002333358",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -2213,11 +2397,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002333258"
+    "id": "1686675960002333258",
+    "en_name": "Black Tassel"
   },
   {
     "uid": "100690258",
@@ -2225,11 +2410,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002333158"
+    "id": "1686675960002333158",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -2237,11 +2423,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002333058"
+    "id": "1686675960002333058",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -2249,11 +2436,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:45:28",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002332958"
+    "id": "1686675960002332958",
+    "en_name": "Raven Bow"
   },
   {
     "uid": "100690258",
@@ -2261,11 +2449,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002278658"
+    "id": "1686675960002278658",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -2273,11 +2462,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Xiangling",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "香菱",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1686675960002278558"
+    "id": "1686675960002278558",
+    "en_name": "Xiangling"
   },
   {
     "uid": "100690258",
@@ -2285,11 +2475,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002278458"
+    "id": "1686675960002278458",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -2297,11 +2488,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002278358"
+    "id": "1686675960002278358",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -2309,11 +2501,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002278258"
+    "id": "1686675960002278258",
+    "en_name": "Debate Club"
   },
   {
     "uid": "100690258",
@@ -2321,11 +2514,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002278158"
+    "id": "1686675960002278158",
+    "en_name": "Bloodtainted Greatsword"
   },
   {
     "uid": "100690258",
@@ -2333,11 +2527,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002278058"
+    "id": "1686675960002278058",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -2345,11 +2540,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002277958"
+    "id": "1686675960002277958",
+    "en_name": "Magic Guide"
   },
   {
     "uid": "100690258",
@@ -2357,11 +2553,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002277858"
+    "id": "1686675960002277858",
+    "en_name": "Cool Steel"
   },
   {
     "uid": "100690258",
@@ -2369,11 +2566,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:21",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002277758"
+    "id": "1686675960002277758",
+    "en_name": "Emerald Orb"
   },
   {
     "uid": "100690258",
@@ -2381,11 +2579,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:44:06",
-    "name": "Favonius Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "西风大剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "4",
-    "id": "1686675960002269458"
+    "id": "1686675960002269458",
+    "en_name": "Favonius Greatsword"
   },
   {
     "uid": "100690258",
@@ -2393,11 +2592,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:43:59",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002261258"
+    "id": "1686675960002261258",
+    "en_name": "Sharpshooter's Oath"
   },
   {
     "uid": "100690258",
@@ -2405,11 +2605,12 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:43:52",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002254158"
+    "id": "1686675960002254158",
+    "en_name": "Slingshot"
   },
   {
     "uid": "100690258",
@@ -2417,11 +2618,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:43:39",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002241958"
+    "id": "1686675960002241958",
+    "en_name": "Ferrous Shadow",
+    "index": 46,
+    "draws": 46
   },
   {
     "uid": "100690258",
@@ -2429,11 +2633,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:43:33",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002238258"
+    "id": "1686675960002238258",
+    "en_name": "Black Tassel",
+    "index": 45,
+    "draws": 45
   },
   {
     "uid": "100690258",
@@ -2441,11 +2648,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:43:27",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002233658"
+    "id": "1686675960002233658",
+    "en_name": "Bloodtainted Greatsword",
+    "index": 44,
+    "draws": 44
   },
   {
     "uid": "100690258",
@@ -2453,11 +2663,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:43:22",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002232058"
+    "id": "1686675960002232058",
+    "en_name": "Black Tassel",
+    "index": 43,
+    "draws": 43
   },
   {
     "uid": "100690258",
@@ -2465,11 +2678,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:43:16",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002229458"
+    "id": "1686675960002229458",
+    "en_name": "Raven Bow",
+    "index": 42,
+    "draws": 42
   },
   {
     "uid": "100690258",
@@ -2477,11 +2693,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:43:10",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002225558"
+    "id": "1686675960002225558",
+    "en_name": "Debate Club",
+    "index": 41,
+    "draws": 41
   },
   {
     "uid": "100690258",
@@ -2489,11 +2708,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-06-14 01:43:02",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1686675960002222558"
+    "id": "1686675960002222558",
+    "en_name": "Ferrous Shadow",
+    "index": 40,
+    "draws": 40
   },
   {
     "uid": "100690258",
@@ -2501,11 +2723,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 15:00:04",
-    "name": "Kirara",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "绮良良",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1684911960000005658"
+    "id": "1684911960000005658",
+    "en_name": "Kirara",
+    "index": 39,
+    "draws": 39
   },
   {
     "uid": "100690258",
@@ -2513,11 +2738,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 14:59:58",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "冷刃",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684908360006418758"
+    "id": "1684908360006418758",
+    "en_name": "Cool Steel",
+    "index": 38,
+    "draws": 38
   },
   {
     "uid": "100690258",
@@ -2525,11 +2753,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 14:59:50",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684908360006398558"
+    "id": "1684908360006398558",
+    "en_name": "Sharpshooter's Oath",
+    "index": 37,
+    "draws": 37
   },
   {
     "uid": "100690258",
@@ -2537,11 +2768,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 14:59:02",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684908360006317858"
+    "id": "1684908360006317858",
+    "en_name": "Harbinger of Dawn",
+    "index": 36,
+    "draws": 36
   },
   {
     "uid": "100690258",
@@ -2549,11 +2783,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 14:58:55",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684908360006307858"
+    "id": "1684908360006307858",
+    "en_name": "Harbinger of Dawn",
+    "index": 35,
+    "draws": 35
   },
   {
     "uid": "100690258",
@@ -2561,11 +2798,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 14:58:50",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684908360006302758"
+    "id": "1684908360006302758",
+    "en_name": "Harbinger of Dawn",
+    "index": 34,
+    "draws": 34
   },
   {
     "uid": "100690258",
@@ -2573,11 +2813,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 14:58:44",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684908360006292358"
+    "id": "1684908360006292358",
+    "en_name": "Sharpshooter's Oath",
+    "index": 33,
+    "draws": 33
   },
   {
     "uid": "100690258",
@@ -2585,11 +2828,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 14:58:36",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684908360006284658"
+    "id": "1684908360006284658",
+    "en_name": "Bloodtainted Greatsword",
+    "index": 32,
+    "draws": 32
   },
   {
     "uid": "100690258",
@@ -2597,11 +2843,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 14:44:38",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684908360004807158"
+    "id": "1684908360004807158",
+    "en_name": "Sharpshooter's Oath",
+    "index": 31,
+    "draws": 31
   },
   {
     "uid": "100690258",
@@ -2609,11 +2858,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 14:11:44",
-    "name": "Ferrous Shadow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "铁影阔剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684908360001450958"
+    "id": "1684908360001450958",
+    "en_name": "Ferrous Shadow",
+    "index": 30,
+    "draws": 30
   },
   {
     "uid": "100690258",
@@ -2621,11 +2873,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:02:37",
-    "name": "Yun Jin",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "云堇",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1684904760000789458"
+    "id": "1684904760000789458",
+    "en_name": "Yun Jin",
+    "index": 29,
+    "draws": 29
   },
   {
     "uid": "100690258",
@@ -2633,11 +2888,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:02:30",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000753958"
+    "id": "1684904760000753958",
+    "en_name": "Magic Guide",
+    "index": 28,
+    "draws": 28
   },
   {
     "uid": "100690258",
@@ -2645,11 +2903,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:02:24",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000716258"
+    "id": "1684904760000716258",
+    "en_name": "Thrilling Tales of Dragon Slayers",
+    "index": 27,
+    "draws": 27
   },
   {
     "uid": "100690258",
@@ -2657,11 +2918,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:02:18",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黎明神剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000681658"
+    "id": "1684904760000681658",
+    "en_name": "Harbinger of Dawn",
+    "index": 26,
+    "draws": 26
   },
   {
     "uid": "100690258",
@@ -2669,11 +2933,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:02:11",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "神射手之誓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000645958"
+    "id": "1684904760000645958",
+    "en_name": "Sharpshooter's Oath",
+    "index": 25,
+    "draws": 25
   },
   {
     "uid": "100690258",
@@ -2681,11 +2948,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:02:04",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000618658"
+    "id": "1684904760000618658",
+    "en_name": "Skyrider Sword",
+    "index": 24,
+    "draws": 24
   },
   {
     "uid": "100690258",
@@ -2693,11 +2963,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:01:57",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000588958"
+    "id": "1684904760000588958",
+    "en_name": "Black Tassel",
+    "index": 23,
+    "draws": 23
   },
   {
     "uid": "100690258",
@@ -2705,11 +2978,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:01:51",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000553158"
+    "id": "1684904760000553158",
+    "en_name": "Bloodtainted Greatsword",
+    "index": 22,
+    "draws": 22
   },
   {
     "uid": "100690258",
@@ -2717,11 +2993,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:01:22",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000416958"
+    "id": "1684904760000416958",
+    "en_name": "Debate Club",
+    "index": 21,
+    "draws": 21
   },
   {
     "uid": "100690258",
@@ -2729,11 +3008,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:01:17",
-    "name": "Beidou",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "北斗",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1684904760000386258"
+    "id": "1684904760000386258",
+    "en_name": "Beidou",
+    "index": 20,
+    "draws": 20
   },
   {
     "uid": "100690258",
@@ -2741,11 +3023,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:01:10",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000357958"
+    "id": "1684904760000357958",
+    "en_name": "Debate Club",
+    "index": 19,
+    "draws": 19
   },
   {
     "uid": "100690258",
@@ -2753,11 +3038,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:01:03",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000324258"
+    "id": "1684904760000324258",
+    "en_name": "Magic Guide",
+    "index": 18,
+    "draws": 18
   },
   {
     "uid": "100690258",
@@ -2765,11 +3053,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:00:53",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000269358"
+    "id": "1684904760000269358",
+    "en_name": "Raven Bow",
+    "index": 17,
+    "draws": 17
   },
   {
     "uid": "100690258",
@@ -2777,11 +3068,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:00:45",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "以理服人",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000232258"
+    "id": "1684904760000232258",
+    "en_name": "Debate Club",
+    "index": 16,
+    "draws": 16
   },
   {
     "uid": "100690258",
@@ -2789,11 +3083,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:00:39",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000202258"
+    "id": "1684904760000202258",
+    "en_name": "Skyrider Sword",
+    "index": 15,
+    "draws": 15
   },
   {
     "uid": "100690258",
@@ -2801,11 +3098,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:00:21",
-    "name": "Yun Jin",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "云堇",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1684904760000115558"
+    "id": "1684904760000115558",
+    "en_name": "Yun Jin",
+    "index": 14,
+    "draws": 14
   },
   {
     "uid": "100690258",
@@ -2813,11 +3113,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:00:14",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "魔导绪论",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000076958"
+    "id": "1684904760000076958",
+    "en_name": "Magic Guide",
+    "index": 13,
+    "draws": 13
   },
   {
     "uid": "100690258",
@@ -2825,11 +3128,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:00:09",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000049358"
+    "id": "1684904760000049358",
+    "en_name": "Thrilling Tales of Dragon Slayers",
+    "index": 12,
+    "draws": 12
   },
   {
     "uid": "100690258",
@@ -2837,11 +3143,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-24 13:00:01",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1684904760000006058"
+    "id": "1684904760000006058",
+    "en_name": "Bloodtainted Greatsword",
+    "index": 11,
+    "draws": 11
   },
   {
     "uid": "100690258",
@@ -2849,11 +3158,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-02 18:02:29",
-    "name": "The Flute",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "笛剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "4",
-    "id": "1683021960009622158"
+    "id": "1683021960009622158",
+    "en_name": "The Flute",
+    "index": 10,
+    "draws": 10
   },
   {
     "uid": "100690258",
@@ -2861,11 +3173,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-02 18:02:03",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1683021960008039758"
+    "id": "1683021960008039758",
+    "en_name": "Skyrider Sword",
+    "index": 9,
+    "draws": 9
   },
   {
     "uid": "100690258",
@@ -2873,11 +3188,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-02 18:01:57",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "弹弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1683021960007629958"
+    "id": "1683021960007629958",
+    "en_name": "Slingshot",
+    "index": 8,
+    "draws": 8
   },
   {
     "uid": "100690258",
@@ -2885,11 +3203,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-02 18:01:50",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "鸦羽弓",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1683021960007174358"
+    "id": "1683021960007174358",
+    "en_name": "Raven Bow",
+    "index": 7,
+    "draws": 7
   },
   {
     "uid": "100690258",
@@ -2897,11 +3218,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-02 18:01:44",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "飞天御剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1683021960006763958"
+    "id": "1683021960006763958",
+    "en_name": "Skyrider Sword",
+    "index": 6,
+    "draws": 6
   },
   {
     "uid": "100690258",
@@ -2909,11 +3233,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-02 18:01:37",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1683021960006295358"
+    "id": "1683021960006295358",
+    "en_name": "Thrilling Tales of Dragon Slayers",
+    "index": 5,
+    "draws": 5
   },
   {
     "uid": "100690258",
@@ -2921,11 +3248,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-02 18:01:31",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "沐浴龙血的剑",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1683021960005864558"
+    "id": "1683021960005864558",
+    "en_name": "Bloodtainted Greatsword",
+    "index": 4,
+    "draws": 4
   },
   {
     "uid": "100690258",
@@ -2933,11 +3263,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-02 18:01:25",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "翡玉法球",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1683021960005461158"
+    "id": "1683021960005461158",
+    "en_name": "Emerald Orb",
+    "index": 3,
+    "draws": 3
   },
   {
     "uid": "100690258",
@@ -2945,11 +3278,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-05-02 18:01:15",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "黑缨枪",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1683021960004720858"
+    "id": "1683021960004720858",
+    "en_name": "Black Tassel",
+    "index": 2,
+    "draws": 2
   },
   {
     "uid": "100690258",
@@ -2957,11 +3293,14 @@
     "item_id": "",
     "count": "1",
     "time": "2023-04-28 16:23:44",
-    "name": "Layla",
-    "lang": "en-us",
-    "item_type": "Character",
+    "name": "莱依拉",
+    "lang": "zh-cn",
+    "item_type": "角色",
     "rank_type": "4",
-    "id": "1682669160000420058"
+    "id": "1682669160000420058",
+    "en_name": "Layla",
+    "index": 1,
+    "draws": 1
   },
   {
     "uid": "100690258",
@@ -2969,490 +3308,13 @@
     "item_id": "",
     "count": "1",
     "time": "2023-04-28 16:23:34",
-    "name": "Thrilling Tales of Dragon Slayers",
-    "lang": "en-us",
-    "item_type": "Weapon",
+    "name": "讨龙英杰谭",
+    "lang": "zh-cn",
+    "item_type": "武器",
     "rank_type": "3",
-    "id": "1682669160000416558"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760021460058"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760021459958"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760021459858"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760021459758"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760021459658"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Layla",
-    "lang": "en-us",
-    "item_type": "Character",
-    "rank_type": "4",
-    "id": "1681268760021459558"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Nahida",
-    "lang": "en-us",
-    "item_type": "Character",
-    "rank_type": "5",
-    "id": "1681268760021459458"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760021459358"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760021459258"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:57",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760021459158"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020928758"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020928658"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020928558"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020928458"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Favonius Codex",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "4",
-    "id": "1681268760020928358"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Kuki Shinobu",
-    "lang": "en-us",
-    "item_type": "Character",
-    "rank_type": "4",
-    "id": "1681268760020928258"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020928158"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020928058"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020927958"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:16:26",
-    "name": "Emerald Orb",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020927858"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Sharpshooter's Oath",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020080558"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020080458"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Magic Guide",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020080358"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020080258"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020080158"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Kuki Shinobu",
-    "lang": "en-us",
-    "item_type": "Character",
-    "rank_type": "4",
-    "id": "1681268760020080058"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Debate Club",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020079958"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020079858"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Harbinger of Dawn",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020079758"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:15:46",
-    "name": "Skyrider Sword",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760020079658"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Layla",
-    "lang": "en-us",
-    "item_type": "Character",
-    "rank_type": "4",
-    "id": "1681268760016061858"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760016061758"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Black Tassel",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760016061658"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760016061558"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Slingshot",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760016061458"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Cool Steel",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760016061358"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Raven Bow",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760016061258"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Bloodtainted Greatsword",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "3",
-    "id": "1681268760016061158"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Sacrificial Fragments",
-    "lang": "en-us",
-    "item_type": "Weapon",
-    "rank_type": "4",
-    "id": "1681268760016061058"
-  },
-  {
-    "uid": "100690258",
-    "gacha_type": "301",
-    "item_id": "",
-    "count": "1",
-    "time": "2023-04-12 11:12:26",
-    "name": "Kuki Shinobu",
-    "lang": "en-us",
-    "item_type": "Character",
-    "rank_type": "4",
-    "id": "1681268760016060958"
+    "id": "1682669160000416558",
+    "en_name": "Thrilling Tales of Dragon Slayers",
+    "index": 0,
+    "draws": 0
   }
 ]

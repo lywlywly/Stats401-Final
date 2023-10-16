@@ -34,7 +34,6 @@ export class ParsedURL {
 
 export function parseURL(url) {
   const parsedUrl = new URL(url);
-  console.log(parsedUrl);
   return new ParsedURL(url, parsedUrl);
 }
 
