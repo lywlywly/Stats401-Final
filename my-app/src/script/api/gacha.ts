@@ -41,18 +41,21 @@ export const getForwardedGacha = async (
     server,
     gachaCode,
     language,
+    banner_id,
     end_id,
   }: {
     authToken: any;
     server: any;
     gachaCode: any;
     language: any;
+    banner_id: string;
     end_id: any;
   } = {
     authToken: 1,
     server: 0,
     gachaCode: 3,
     language: "en-US",
+    banner_id: "301",
     end_id: 0,
   }
 ): Promise<any> => {
@@ -69,7 +72,7 @@ export const getForwardedGacha = async (
     default:
       serverHost = "hk4e-api.mihoyo";
   }
-  const url = `https://${serverHost}.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=${language}&gacha_type=301&size=20&end_id=${end_id}`;
+  const url = `https://${serverHost}.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=${language}&gacha_type=${banner_id}&size=20&end_id=${end_id}`;
   const parsedURL = parseURL(url);
   parsedURL.queryParams.authkey = authToken;
   const urlString = parsedURL.toURLString();
@@ -88,12 +91,13 @@ export const asyncLoop = async (cb: (arg0: string) => void) => {
   }
 };
 
-export const getAll = async (
+export const getAllRecordRecursive = async (
   {
     authToken,
     server,
     gachaCode,
     language,
+    banner_id,
     end_id,
     onProgress,
     setIsLoadingCallBack,
@@ -103,6 +107,7 @@ export const getAll = async (
     server: any;
     gachaCode: any;
     language: any;
+    banner_id: any;
     end_id: any;
     onProgress: (arg0: string) => void;
     setIsLoadingCallBack: (arg0: boolean) => void;
@@ -112,6 +117,7 @@ export const getAll = async (
     server: 0,
     gachaCode: 3,
     language: "en-US",
+    banner_id: "301",
     end_id: 4,
     onProgress: () => {},
     setIsLoadingCallBack: () => {},
@@ -128,6 +134,7 @@ export const getAll = async (
       authToken: authToken,
       server: server,
       gachaCode: gachaCode,
+      banner_id: banner_id,
       end_id: last_id,
     };
     const [res_data, res_en_data] = await Promise.all([

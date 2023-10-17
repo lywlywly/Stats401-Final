@@ -4,7 +4,7 @@ import {
   getForwardedGacha,
   getGacha,
   getParemetersFromUrl,
-  getAll,
+  getAllRecordRecursive,
   asyncLoop,
 } from "@/script/api/gacha";
 import { useState, useEffect } from "react";
@@ -46,6 +46,7 @@ export const regular = [
 export default function Home(): React.JSX.Element {
   const [authToken, setauthToken] = useState<string>("");
   const [server, setServer] = useState<number>(0);
+  const [bannerId, setBannerId] = useState<string>("301");
   const [imgSrc, setImgSrc] = useState<string[]>([]);
   const [allProcessedData, setAllProcessedData] = useState<GachaItem[]>();
   const [allRequestedData, setAllRequestedData] = useState<GachaItem[]>();
@@ -71,11 +72,12 @@ export default function Home(): React.JSX.Element {
   }
 
   const requestData = async () => {
-    let allGachaResult = await getAll({
+    let allGachaResult = await getAllRecordRecursive({
       authToken: authToken,
       server: server,
       gachaCode: 301,
       language: "zh-CN",
+      banner_id: bannerId,
       end_id: 0,
       onProgress: (p: string) => {
         setProgress(p);
@@ -151,6 +153,7 @@ export default function Home(): React.JSX.Element {
         setServer={setServer}
         interval={interval}
         onToggleChange={setUseLocalData}
+        setBannerId={setBannerId}
       ></Control>
       <>
         {isLoading ? (

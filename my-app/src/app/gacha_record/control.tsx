@@ -10,6 +10,7 @@ export const Control = function (props: {
   setServer: (arg0: number) => void;
   interval: { current: number };
   onToggleChange: (arg0: boolean) => void;
+  setBannerId: (arg0: string) => void;
 }): React.JSX.Element {
   const [checked, setChecked] = useState(true);
   return (
@@ -40,6 +41,27 @@ export const Control = function (props: {
       >
         <option value="cn">cn</option>
         <option value="global">global</option>
+      </select>
+      <select
+        onChange={(e) => {
+          switch (e.target.value) {
+            case "event":
+              props.setBannerId("301");
+              break;
+            case "permanent":
+              props.setBannerId("200");
+              break;
+            case "weapon":
+              props.setBannerId("302");
+              break;
+            default:
+              props.setBannerId("301");
+          }
+        }}
+      >
+        <option value="event">event</option>
+        <option value="permanent">permanent</option>
+        <option value="weapon">weapon</option>
       </select>
       <input
         type="range"
