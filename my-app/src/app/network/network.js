@@ -5,8 +5,8 @@
 import * as d3 from "d3";
 
 export function network() {
-  const width = 1200;
-  const height = 900;
+  const width = 600;
+  const height = 800;
 
   let processedData; // Variable to store processed data
   let nodes = [];
@@ -48,11 +48,13 @@ export function network() {
     console.log(graph);
     const color = d3.scaleOrdinal(d3.schemeCategory10);
     color.domain(graph.nodes.map((node) => node.id));
+    d3.select(".network").select("svg").remove();
     const svg = d3
-      .select("body")
+      .select(".network")
       .append("svg")
       .attr("width", width)
       .attr("height", height);
+      
     // const color = d3.scaleOrdinal()
     // .domain(['type1', 'type2', 'type3', 'type4', 'type5'])
     // .range(['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff']);

@@ -69,7 +69,7 @@ export function vis3() {
     });
     groupedData = expandedData;
 
-    const margin = { top: 20, right: 20, bottom: 50, left: 150 };
+    const margin = { top: 20, right: 20, bottom: 50, left: 50 };
     width = 800 - margin.left - margin.right;
     height = 400 - margin.top - margin.bottom;
 

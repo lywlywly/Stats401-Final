@@ -5,13 +5,20 @@ import * as d3 from "d3";
 import GachaRacord from "@/app/gacha_record/page";
 import Network from "@/app/network/page";
 import Vis5 from "@/app/vis5/page";
+import "./styles.css";
 
 const Chart: React.FunctionComponent = () => {
   return (
-    <div>
-      <GachaRacord></GachaRacord>
-      <Network></Network>
-      <Vis5></Vis5>
+    <div className="grid-container">
+      <div className="grid-item">
+        <GachaRacord></GachaRacord>
+      </div>
+      <div className="grid-item" style={{ minWidth: "850px" }}>
+        <Vis5></Vis5>
+      </div>
+      <div className="grid-item">
+        <Network></Network>
+      </div>
     </div>
   );
 };

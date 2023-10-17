@@ -8,7 +8,11 @@ const Chart: React.FunctionComponent = () => {
     network.network();
   });
 
-  return <div></div>;
+  return (
+    <div className="network">
+      <svg></svg>
+    </div>
+  );
 };
 
 export default Chart;
