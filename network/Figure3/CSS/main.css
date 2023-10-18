@@ -1,0 +1,11 @@
+nav{
+    background-color: #c7ea8d ;
+  } html,body{
+  margin: 0;
+    height: 100%;
+  }
+path{
+  stroke: #b08dea;
+  stroke-width: 2px;
+  fill: none;
+}
