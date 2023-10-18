@@ -5,14 +5,12 @@
 import * as d3 from "d3";
 
 export function vis3() {
-  // 初始化全局变量
   let svg, xScale, yScale, width, height, groupedData;
   let currentIndex = 0;
   let isPlaying = false;
   let currentDate = "";
 
   d3.csv("all_data.csv").then((data) => {
-    // 过滤出5星角色并按日期和名称进行分组
     const fiveStarCharacters = data.filter(
       (d) => d.Type == "2" && d.Star == "5"
     );
@@ -42,8 +40,8 @@ export function vis3() {
       if (!latestCumulativeCounts[d.Name]) {
         latestCumulativeCounts[d.Name] = 0;
       }
-      latestCumulativeCounts[d.Name] += d.Count; // 累加数量
-      d.CumulativeCount = latestCumulativeCounts[d.Name]; // 保存到当前数据点的累积数量
+      latestCumulativeCounts[d.Name] += d.Count;
+      d.CumulativeCount = latestCumulativeCounts[d.Name];
     });
 
     const allDates = [...new Set(groupedData.map((d) => d.Time))];
@@ -69,12 +67,13 @@ export function vis3() {
     });
     groupedData = expandedData;
 
-    const margin = { top: 20, right: 20, bottom: 50, left: 50 };
+    const margin = { top: 20, right: 20, bottom: 20, left: 50 };
     width = 800 - margin.left - margin.right;
-    height = 400 - margin.top - margin.bottom;
+    height = 500 - margin.top - margin.bottom;
 
     svg = d3
-      .select("#chart")
+      .select(".vis5")
+      .select("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
       .append("g")
@@ -108,7 +107,6 @@ export function vis3() {
   function playData() {
     if (!isPlaying || currentIndex >= groupedData.length) return;
 
-    // 检查日期是否变化
     if (groupedData[currentIndex].Time !== currentDate) {
       currentDate = groupedData[currentIndex].Time;
       d3.select("#currentTime").text(currentDate);
@@ -119,7 +117,7 @@ export function vis3() {
     updateChart(dataToShow);
 
     currentIndex++;
-    setTimeout(playData, 10); // 这里我继续使用了250毫秒的更新频率，您可以根据需要进行调整
+    setTimeout(playData, 10);
   }
 
   function updateChart(data) {

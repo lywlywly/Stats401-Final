@@ -10,13 +10,13 @@ const Chart: React.FunctionComponent = () => {
   });
 
   return (
-    // <div className="container">
-    <>
-      <button id="playButton">Play</button>
-      <text id="currentTime" x="850" y="30"></text>
-      <svg id="chart"></svg>
-    </>
-    // </div>
+    <div className="vis5">
+      <div>
+        <button id="playButton">Play</button>
+        <text id="currentTime" x="850" y="30"></text>
+      </div>
+      <svg></svg>
+    </div>
   );
 };
 

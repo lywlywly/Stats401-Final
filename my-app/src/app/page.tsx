@@ -29,7 +29,7 @@ export default function Home() {
           <Link href="/dashboard">Dashboard</Link>
         </li>
         <li>
-          <Link href="/vis3">Visualization 5</Link>
+          <Link href="/vis3">Visualization 3</Link>
         </li>
       </ul>
     </main>

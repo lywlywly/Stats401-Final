@@ -11,20 +11,20 @@ import "./styles.css";
 
 const Chart: React.FunctionComponent = () => {
   return (
-    <div className="grid-container">
-      <div className="grid-item" style={{ minWidth: "720px" }}>
+    <div className="parent">
+      <div className="grid-item div1" style={{ minWidth: "720px" }}>
         <Vis1></Vis1>
       </div>
-      <div className="grid-item">
+      <div className="grid-item div2">
         <Network></Network>
       </div>
-      <div className="grid-item" style={{ minWidth: "800px" }}>
+      <div className="grid-item div3" style={{ minWidth: "800px" }}>
         <GachaRacord></GachaRacord>
       </div>
-      <div className="grid-item" style={{ minWidth: "850px" }}>
+      <div className="grid-item div4" style={{ minWidth: "850px" }}>
         <Vis5></Vis5>
       </div>
-      <div className="grid-item">
+      <div className="grid-item div5" style={{ minWidth: "800px" }}>
         <Vis3></Vis3>
       </div>
     </div>

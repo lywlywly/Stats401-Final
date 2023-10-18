@@ -4,7 +4,7 @@
 
 import * as d3 from "d3";
 
-export function vis3() {
+export function vis3(useStack) {
   const data = [
     {
       Time: "Sep-20",
@@ -80,26 +80,24 @@ export function vis3() {
 
   // set the dimensions and margins of the graph
 
-  const margin = { top: 100, right: 30, bottom: 30, left: 60 },
-    width = 500 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
-
-  // append the svg object to the body of the page
-  // const svg = d3.select("svg")
-  //   .attr("width", width + margin.left + margin.right)
-  //   .attr("height", height + margin.top + margin.bottom)
-  //   .append("g")
-  //   .attr("transform", `translate(${margin.left}, ${margin.top})`);
+  const margin = { top: 100, right: 30, bottom: 20, left: 20 },
+    width = 545 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
   d3.select(".vis3").select("svg").remove();
   const svg = d3
     .select(".vis3")
     .append("svg")
-    .attr("width", 800)
-    .attr("height", 600)
+    .attr("width", 700)
+    .attr("height", 525)
     .append("g")
-    .attr("transform", "translate(50,300)");
-
+    .attr("transform", "translate(50,75)");
+  const background = svg
+    .append("rect")
+    .attr("width", width)
+    .attr("height", height)
+    .attr("fill", "blue")
+    .attr("fill-opacity", 0.0);
   // List of groups (Pools)
   const keys = [
     "Novice Pool",
@@ -110,16 +108,28 @@ export function vis3() {
 
   // Add X axis (YearMonth values)
   const x = d3
-    .scaleBand()
-    .domain(data.map((d) => d.Time)) // Use the index as a representation of YearMonth
-    .range([0, width]);
+    .scaleBand(
+      data.map((d) => d.Time),
+      [0, width]
+    )
+    .paddingInner(1);
+
   svg
     .append("g")
     .attr("transform", `translate(0, ${height})`)
     .call(d3.axisBottom(x));
 
+  // Stack the data
+  const stackedData = d3.stack().keys(keys)(data);
+  console.log(stackedData);
+
   // Add Y axis based on our data's range
-  const max_value = d3.max(data, (d) => d3.max(keys, (key) => d[key]));
+  let max_value;
+  if (useStack) {
+    max_value = 1.1 * stackedData.at(-1).at(-1)[1];
+  } else {
+    max_value = 1.15 * d3.max(data, (d) => d3.max(keys, (key) => d[key]));
+  }
 
   const y = d3.scaleLinear().domain([0, max_value]).range([height, 0]);
   svg.append("g").call(d3.axisLeft(y));
@@ -127,26 +137,77 @@ export function vis3() {
   // color palette
   const color = d3.scaleOrdinal().domain(keys).range(d3.schemeCategory10); // Use a color scheme with enough distinct colors
 
-  // Stack the data
-  const stackedData = d3.stack().keys(keys)(data);
+  if (useStack) {
+    svg
+      .selectAll("mylayers")
+      .data(stackedData)
+      .join("path")
+      .style("fill", (d) => color(d.key))
+      .attr(
+        "d",
+        d3
+          .area()
+          // .x((d, i) => x(i))
+          .x((d, i) => x(data[i].Time))
+          .y0((d) => y(d[0]))
+          .y1((d) => y(d[1]))
+      );
+  } else {
+    keys.forEach((key) => {
+      svg
+        .append("path")
+        .datum(data)
+        .attr("fill", "none")
+        .attr("stroke", (d) => color(key))
+        .attr("stroke-width", 1.5)
+        .attr(
+          "d",
+          d3
+            .line()
+            .x((d) => x(d.Time))
+            .y((d) => y(d[key]))
+        );
+    });
+  }
 
-  // console.log(stackedData);
-  // Show the areas
-  svg
-    .selectAll("mylayers")
-    .data(stackedData)
-    .join("path")
-    .style("fill", (d) => color(d.key))
-    .attr(
-      "d",
-      d3
-        .area()
-        // .x((d, i) => x(i))
-        .x((d, i) => x(data[i].Time))
+  console.log(svg);
 
-        .y0((d) => y(d[0]))
-        .y1((d) => y(d[1]))
+  const mouse_g = svg
+    .append("g")
+    .classed("mouse", true)
+    .style("display", "none");
+  mouse_g
+    .append("rect")
+    .attr("width", 2)
+    .attr("x", -1)
+    .attr("height", height)
+    .attr("fill", "lightgray");
+  mouse_g.append("g").classed("tooltip", true);
+
+  svg.on("click", (e) => {
+    console.log(e);
+    mouse_g.style("display", "block");
+    mouse_g.select(".tooltip").selectAll("*").remove();
+    const [x_cord, y_cord] = d3.pointer(e);
+    const ratio = x_cord / width;
+    let idx = Math.round((data.length - 1) * ratio);
+    let interestedData = data[idx];
+    console.log((data.length - 1) * ratio);
+    Object.keys(interestedData).forEach((key, i) =>
+      mouse_g
+        .select(".tooltip")
+        .append("text")
+        .attr("x", 20)
+        .attr("y", i * 15 + 10)
+        .style("font-size", "12px")
+        .text(`${key}: ${interestedData[key]}`)
     );
+    mouse_g.select("rect").attr("x", x(data[idx].Time));
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") mouse_g.style("display", "none");
+  });
 
   // legend
 
@@ -178,5 +239,6 @@ export function vis3() {
     .append("text")
     .attr("x", legendRectSize + legendSpacing)
     .attr("y", legendRectSize - legendSpacing)
-    .text((d) => d);
+    .text((d) => d)
+    .style("font-size", "12px");
 }

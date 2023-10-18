@@ -16,6 +16,7 @@ const Chart: React.FunctionComponent = () => {
   }, [radius]);
   return (
     <div>
+      Zoom
       <input
         type="range"
         onChange={(e) => {
