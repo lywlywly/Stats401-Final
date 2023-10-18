@@ -15,11 +15,11 @@ const Chart: React.FunctionComponent = () => {
       <div className="grid-item" style={{ minWidth: "720px" }}>
         <Vis1></Vis1>
       </div>
-      <div className="grid-item" style={{ minWidth: "800px" }}>
-        <GachaRacord></GachaRacord>
-      </div>
       <div className="grid-item">
         <Network></Network>
+      </div>
+      <div className="grid-item" style={{ minWidth: "800px" }}>
+        <GachaRacord></GachaRacord>
       </div>
       <div className="grid-item" style={{ minWidth: "850px" }}>
         <Vis5></Vis5>

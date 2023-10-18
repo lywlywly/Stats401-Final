@@ -1,51 +1,51 @@
 Name,Number
-"['xingqiu', 'yelan', 'shinobu', 'nahida', 'xiangling', 'bennett', 'kazuha', 'shougun']",125
-"['ayaka', 'kazuha', 'kokomi', 'shenhe', 'xiangling', 'bennett', 'shougun', 'yelan']",85
-"['xingqiu', 'kokomi', 'shinobu', 'nahida', 'xiangling', 'bennett', 'shougun', 'yelan']",59
-"['ayaka', 'kazuha', 'kokomi', 'shenhe', 'xiangling', 'xingqiu', 'bennett', 'shougun']",58
-"['xingqiu', 'shinobu', 'nahida', 'alhatham', 'xiangling', 'bennett', 'shougun', 'yelan']",56
-"['xingqiu', 'zhongli', 'hutao', 'yelan', 'bennett', 'kazuha', 'shougun', 'sara']",53
-"['xingqiu', 'zhongli', 'hutao', 'yelan', 'xiangling', 'bennett', 'tartaglia', 'kazuha']",50
-"['xingqiu', 'zhongli', 'hutao', 'yelan', 'xiangling', 'bennett', 'kazuha', 'shougun']",50
-"['ayaka', 'kazuha', 'kokomi', 'shenhe', 'xingqiu', 'zhongli', 'hutao', 'yelan']",48
-"['xingqiu', 'shinobu', 'nahida', 'alhatham', 'xiangling', 'bennett', 'tartaglia', 'kazuha']",33
-"['kokomi', 'yelan', 'shinobu', 'nahida', 'xiangling', 'xingqiu', 'bennett', 'shougun']",31
-"['xingqiu', 'yelan', 'shinobu', 'nahida', 'xiangling', 'bennett', 'tartaglia', 'kazuha']",30
-"['xingqiu', 'shinobu', 'nahida', 'alhatham', 'xiangling', 'bennett', 'kazuha', 'shougun']",30
-"['zhongli', 'mona', 'hutao', 'yelan', 'xiangling', 'xingqiu', 'bennett', 'shougun']",29
-"['xingqiu', 'shinobu', 'nahida', 'alhatham', 'xiangling', 'bennett', 'kazuha', 'yelan']",27
-"['xingqiu', 'kokomi', 'shinobu', 'nahida', 'xiangling', 'bennett', 'kazuha', 'shougun']",25
-"['xingqiu', 'kazuha', 'shinobu', 'nahida', 'xiangling', 'bennett', 'shougun', 'yelan']",22
-"['zhongli', 'mona', 'kazuha', 'yelan', 'xiangling', 'xingqiu', 'bennett', 'shougun']",21
-"['traveler_girl', 'kokomi', 'nilou', 'nahida', 'xiangling', 'bennett', 'shougun', 'yelan']",20
-"['traveler_girl', 'kokomi', 'nilou', 'nahida', 'xingqiu', 'zhongli', 'hutao', 'yelan']",19
-"['zhongli', 'yelan', 'shinobu', 'nahida', 'xiangling', 'xingqiu', 'bennett', 'shougun']",18
-"['xingqiu', 'yelan', 'shinobu', 'nahida', 'bennett', 'kazuha', 'shougun', 'sara']",17
-"['xingqiu', 'zhongli', 'shinobu', 'nahida', 'xiangling', 'bennett', 'shougun', 'yelan']",15
-"['yelan', 'nilou', 'nahida', 'baizhu', 'xiangling', 'xingqiu', 'bennett', 'shougun']",15
-"['xiangling', 'bennett', 'tartaglia', 'kazuha', 'xingqiu', 'zhongli', 'hutao', 'yelan']",13
-"['barbara', 'xingqiu', 'shinobu', 'nahida', 'xiangling', 'bennett', 'shougun', 'yelan']",13
-"['ayaka', 'kazuha', 'kokomi', 'shenhe', 'beidou', 'xingqiu', 'shinobu', 'nahida']",12
-"['xingqiu', 'zhongli', 'hutao', 'yelan', 'bennett', 'kazuha', 'shougun', 'nahida']",12
-"['traveler_girl', 'kokomi', 'nilou', 'nahida', 'xiangling', 'xingqiu', 'bennett', 'shougun']",12
-"['shougun', 'kokomi', 'yelan', 'nahida', 'xiangling', 'bennett', 'tartaglia', 'kazuha']",11
-"['ayaka', 'kazuha', 'kokomi', 'shenhe', 'zhongli', 'yaemiko', 'nahida', 'alhatham']",11
-"['xingqiu', 'shinobu', 'nahida', 'alhatham', 'bennett', 'kazuha', 'shougun', 'yelan']",11
-"['bennett', 'kazuha', 'shougun', 'sara', 'xingqiu', 'zhongli', 'hutao', 'yelan']",11
-"['shougun', 'kokomi', 'yelan', 'nahida', 'xiangling', 'bennett', 'tartaglia', 'kazuha']",11
-"['kokomi', 'nilou', 'nahida', 'baizhu', 'xiangling', 'bennett', 'shougun', 'yelan']",10
-"['xingqiu', 'shinobu', 'nahida', 'alhatham', 'zhongli', 'bennett', 'kazuha', 'liney']",10
-"['yelan', 'nilou', 'nahida', 'baizhu', 'xiangling', 'bennett', 'kazuha', 'shougun']",10
-"['zhongli', 'yelan', 'wanderer', 'faruzan', 'xiangling', 'bennett', 'tartaglia', 'kazuha']",10
-"['kokomi', 'nilou', 'nahida', 'yaoyao', 'xiangling', 'xingqiu', 'bennett', 'shougun']",10
-"['zhongli', 'yelan', 'wanderer', 'faruzan', 'xiangling', 'xingqiu', 'bennett', 'shougun']",10
-"['ayaka', 'diona', 'mona', 'kazuha', 'xiangling', 'xingqiu', 'bennett', 'shougun']",9
-"['xingqiu', 'kokomi', 'shinobu', 'nahida', 'xiangling', 'bennett', 'kazuha', 'yelan']",9
-"['xiangling', 'bennett', 'tartaglia', 'kazuha', 'xingqiu', 'shinobu', 'nahida', 'alhatham']",9
-"['kokomi', 'yelan', 'nilou', 'nahida', 'xiangling', 'xingqiu', 'bennett', 'shougun']",9
-"['xingqiu', 'shinobu', 'nahida', 'alhatham', 'xiangling', 'bennett', 'kazuha', 'ayato']",9
-"['shougun', 'kokomi', 'yelan', 'nahida', 'xiangling', 'xingqiu', 'bennett', 'kazuha']",9
-"['kokomi', 'yelan', 'shinobu', 'nahida', 'xiangling', 'bennett', 'kazuha', 'shougun']",8
-"['kokomi', 'nilou', 'nahida', 'baizhu', 'xingqiu', 'zhongli', 'hutao', 'yelan']",8
-"['xingqiu', 'yelan', 'shinobu', 'nahida', 'xiangling', 'bennett', 'hutao', 'kazuha']",8
-"['xiangling', 'bennett', 'shougun', 'yelan', 'xingqiu', 'zhongli', 'shinobu', 'nahida']",8
+"['Xingqiu', 'Yelan', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun']",125
+"['Kamisato Ayaka', 'Kaedehara Kazuha', 'Sangonomiya Kokomi', 'Shenhe', 'Xiangling', 'Bennett', 'Raiden Shogun', 'Yelan']",85
+"['Xingqiu', 'Sangonomiya Kokomi', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Raiden Shogun', 'Yelan']",59
+"['Kamisato Ayaka', 'Kaedehara Kazuha', 'Sangonomiya Kokomi', 'Shenhe', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",58
+"['Xingqiu', 'Kuki Shinobu', 'Nahida', 'Alhaitham', 'Xiangling', 'Bennett', 'Raiden Shogun', 'Yelan']",56
+"['Xingqiu', 'Zhongli', 'Hu Tao', 'Yelan', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun', 'Kujou Sara']",53
+"['Xingqiu', 'Zhongli', 'Hu Tao', 'Yelan', 'Xiangling', 'Bennett', 'Tartaglia', 'Kaedehara Kazuha']",50
+"['Xingqiu', 'Zhongli', 'Hu Tao', 'Yelan', 'Xiangling', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun']",50
+"['Kamisato Ayaka', 'Kaedehara Kazuha', 'Sangonomiya Kokomi', 'Shenhe', 'Xingqiu', 'Zhongli', 'Hu Tao', 'Yelan']",48
+"['Xingqiu', 'Kuki Shinobu', 'Nahida', 'Alhaitham', 'Xiangling', 'Bennett', 'Tartaglia', 'Kaedehara Kazuha']",33
+"['Sangonomiya Kokomi', 'Yelan', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",31
+"['Xingqiu', 'Yelan', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Tartaglia', 'Kaedehara Kazuha']",30
+"['Xingqiu', 'Kuki Shinobu', 'Nahida', 'Alhaitham', 'Xiangling', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun']",30
+"['Zhongli', 'Mona', 'Hu Tao', 'Yelan', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",29
+"['Xingqiu', 'Kuki Shinobu', 'Nahida', 'Alhaitham', 'Xiangling', 'Bennett', 'Kaedehara Kazuha', 'Yelan']",27
+"['Xingqiu', 'Sangonomiya Kokomi', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun']",25
+"['Xingqiu', 'Kaedehara Kazuha', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Raiden Shogun', 'Yelan']",22
+"['Zhongli', 'Mona', 'Kaedehara Kazuha', 'Yelan', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",21
+"['Traveler', 'Sangonomiya Kokomi', 'Nilou', 'Nahida', 'Xiangling', 'Bennett', 'Raiden Shogun', 'Yelan']",20
+"['Traveler', 'Sangonomiya Kokomi', 'Nilou', 'Nahida', 'Xingqiu', 'Zhongli', 'Hu Tao', 'Yelan']",19
+"['Zhongli', 'Yelan', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",18
+"['Xingqiu', 'Yelan', 'Kuki Shinobu', 'Nahida', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun', 'Kujou Sara']",17
+"['Xingqiu', 'Zhongli', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Raiden Shogun', 'Yelan']",15
+"['Yelan', 'Nilou', 'Nahida', 'baizhu', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",15
+"['Xiangling', 'Bennett', 'Tartaglia', 'Kaedehara Kazuha', 'Xingqiu', 'Zhongli', 'Hu Tao', 'Yelan']",13
+"['barbara', 'Xingqiu', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Raiden Shogun', 'Yelan']",13
+"['Kamisato Ayaka', 'Kaedehara Kazuha', 'Sangonomiya Kokomi', 'Shenhe', 'Beidou', 'Xingqiu', 'Kuki Shinobu', 'Nahida']",12
+"['Xingqiu', 'Zhongli', 'Hu Tao', 'Yelan', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun', 'Nahida']",12
+"['Traveler', 'Sangonomiya Kokomi', 'Nilou', 'Nahida', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",12
+"['Raiden Shogun', 'Sangonomiya Kokomi', 'Yelan', 'Nahida', 'Xiangling', 'Bennett', 'Tartaglia', 'Kaedehara Kazuha']",11
+"['Kamisato Ayaka', 'Kaedehara Kazuha', 'Sangonomiya Kokomi', 'Shenhe', 'Zhongli', 'Yae Miko', 'Nahida', 'Alhaitham']",11
+"['Xingqiu', 'Kuki Shinobu', 'Nahida', 'Alhaitham', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun', 'Yelan']",11
+"['Bennett', 'Kaedehara Kazuha', 'Raiden Shogun', 'Kujou Sara', 'Xingqiu', 'Zhongli', 'Hu Tao', 'Yelan']",11
+"['Raiden Shogun', 'Sangonomiya Kokomi', 'Yelan', 'Nahida', 'Xiangling', 'Bennett', 'Tartaglia', 'Kaedehara Kazuha']",11
+"['Sangonomiya Kokomi', 'Nilou', 'Nahida', 'baizhu', 'Xiangling', 'Bennett', 'Raiden Shogun', 'Yelan']",10
+"['Xingqiu', 'Kuki Shinobu', 'Nahida', 'Alhaitham', 'Zhongli', 'Bennett', 'Kaedehara Kazuha', 'Lyney']",10
+"['Yelan', 'Nilou', 'Nahida', 'baizhu', 'Xiangling', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun']",10
+"['Zhongli', 'Yelan', 'Wanderer', 'Faruzan', 'Xiangling', 'Bennett', 'Tartaglia', 'Kaedehara Kazuha']",10
+"['Sangonomiya Kokomi', 'Nilou', 'Nahida', 'Yaoyao', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",10
+"['Zhongli', 'Yelan', 'Wanderer', 'Faruzan', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",10
+"['Kamisato Ayaka', 'Diona', 'Mona', 'Kaedehara Kazuha', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",9
+"['Xingqiu', 'Sangonomiya Kokomi', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Kaedehara Kazuha', 'Yelan']",9
+"['Xiangling', 'Bennett', 'Tartaglia', 'Kaedehara Kazuha', 'Xingqiu', 'Kuki Shinobu', 'Nahida', 'Alhaitham']",9
+"['Sangonomiya Kokomi', 'Yelan', 'Nilou', 'Nahida', 'Xiangling', 'Xingqiu', 'Bennett', 'Raiden Shogun']",9
+"['Xingqiu', 'Kuki Shinobu', 'Nahida', 'Alhaitham', 'Xiangling', 'Bennett', 'Kaedehara Kazuha', 'Kamisato Ayato']",9
+"['Raiden Shogun', 'Sangonomiya Kokomi', 'Yelan', 'Nahida', 'Xiangling', 'Xingqiu', 'Bennett', 'Kaedehara Kazuha']",9
+"['Sangonomiya Kokomi', 'Yelan', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Kaedehara Kazuha', 'Raiden Shogun']",8
+"['Sangonomiya Kokomi', 'Nilou', 'Nahida', 'baizhu', 'Xingqiu', 'Zhongli', 'Hu Tao', 'Yelan']",8
+"['Xingqiu', 'Yelan', 'Kuki Shinobu', 'Nahida', 'Xiangling', 'Bennett', 'Hu Tao', 'Kaedehara Kazuha']",8
+"['Xiangling', 'Bennett', 'Raiden Shogun', 'Yelan', 'Xingqiu', 'Zhongli', 'Kuki Shinobu', 'Nahida']",8

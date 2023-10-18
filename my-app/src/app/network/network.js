@@ -54,7 +54,7 @@ export function network() {
       .append("svg")
       .attr("width", width)
       .attr("height", height);
-      
+
     // const color = d3.scaleOrdinal()
     // .domain(['type1', 'type2', 'type3', 'type4', 'type5'])
     // .range(['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff']);
@@ -80,7 +80,47 @@ export function network() {
       .style("stroke", "#CCCCFF")
       .style("stroke-width", (d) => d.weight / 20)
       .style("opacity", 0.5);
-    link.append("title").text((d) => d.weight);
+    // link.append("title").text((d) => d.weight);
+
+    function calcWeight(event, d) {
+      console.log(d);
+      // alert("Node ID: " + d.id);
+      // Reset visual appearance of nodes and links
+      reset();
+      // node.style('opacity', 0);
+      link.style("opacity", 0.1);
+      // Highlight the clicked node
+      d3.select(this).style("fill", "red");
+
+      // Highlight all nodes connected to the clicked node and show link weights
+
+      var res = [];
+      link
+        .filter((l) => l.source === d || l.target === d)
+        .style("stroke", "red")
+        .style("opacity", 0.8)
+        .each(function (l) {
+          res.push([d.id, l.target == d ? l.source.id : l.target.id, l.weight]);
+          console.log(
+            `Link between ${l.source.id} and ${l.target.id} has weight: ${l.weight}`
+          );
+        });
+      // .each(function(l) {
+      //     d3.select(this).append('title').text(l => l.weight); // Show weight as tooltip
+      // });
+
+      node
+        .filter((n) =>
+          links.some(
+            (l) =>
+              (l.source === d && l.target === n) ||
+              (l.target === d && l.source === n)
+          )
+        )
+        .style("fill", "orange"); // Highlight connected nodes
+
+      return res.slice(0, 10);
+    }
 
     const node = svg
       .append("g")
@@ -90,49 +130,58 @@ export function network() {
       .append("circle")
       .attr("r", 8)
       .style("fill", (d) => color(d.id))
-      .call(
-        d3
-          .drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended)
-      )
-      .on("click", function (event, d) {
-        console.log(d);
-        // alert("Node ID: " + d.id);
-        // Reset visual appearance of nodes and links
-        reset();
-        // node.style('opacity', 0);
-        link.style("opacity", 0.1);
-        // Highlight the clicked node
-        d3.select(this).style("fill", "red");
+      // .call(
+      //   d3
+      //     .drag()
+      //     .on("start", dragstarted)
+      //     .on("drag", dragged)
+      //     .on("end", dragended)
+      // )
+      .on("click", calcWeight);
+    // .on("mouseout", hideTooltip);
+    node.on("mouseover", showTooltip);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") hideTooltip();
+    });
+    svg.on("click", hideTooltip);
 
-        // Highlight all nodes connected to the clicked node and show link weights
-        link
-          .filter((l) => l.source === d || l.target === d)
-          .style("stroke", "red")
-          .style("opacity", 0.8)
-          .each(function (l) {
-            console.log(
-              `Link between ${l.source.id} and ${l.target.id} has weight: ${l.weight}`
-            );
-          });
-        // .each(function(l) {
-        //     d3.select(this).append('title').text(l => l.weight); // Show weight as tooltip
-        // });
+    function showTooltip(e, d) {
+      const tooltip = d3.select("#tooltip");
+      tooltip.selectAll("p").remove();
+      console.log(d);
+      console.log(e);
 
-        node
-          .filter((n) =>
-            links.some(
-              (l) =>
-                (l.source === d && l.target === n) ||
-                (l.target === d && l.source === n)
-            )
-          )
-          .style("fill", "orange"); // Highlight connected nodes
+      var a = calcWeight(e, d);
+      tooltip
+        .style("left", e.pageX + "px")
+        .style("top", e.pageY + "px")
+        .style("visibility", "visible")
+        .select("img")
+        .attr("src", `assets/${d.id}.png`);
+      // tooltip.select("p").text(a.toString());
+      a.forEach((e) => {
+        console.log(e);
+        tooltip
+          .append("p")
+          .text(`link between ${e[1]}: ${e[2]}`)
+          .on("click", () => findWho(e[1]));
       });
+      // tooltip.select("p").text("Nahida").on("click", findNahida);
+    }
 
-    node.append("title").text((d) => d.id);
+    function findWho(who) {
+      let interestedCircle = node.filter((circleData) => circleData.id === who);
+      console.log(interestedCircle);
+      calcWeight(null, interestedCircle.datum());
+    }
+
+    // Function to hide the tooltip
+    function hideTooltip() {
+      reset();
+      const tooltip = d3.select("#tooltip");
+      tooltip.style("visibility", "hidden");
+    }
+    // node.append("title").text((d) => d.id);
 
     simulation.on("tick", () => {
       link
@@ -161,7 +210,7 @@ export function network() {
       event.subject.fy = null;
     }
     function reset() {
-      console.clear();
+      // console.clear();
       // Reset link appearance
       link.style("stroke", "#CCCCFF").style("opacity", 0.5);
 
