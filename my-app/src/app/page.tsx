@@ -28,6 +28,9 @@ export default function Home() {
         <li>
           <Link href="/dashboard">Dashboard</Link>
         </li>
+        <li>
+          <Link href="/vis3">Visualization 5</Link>
+        </li>
       </ul>
     </main>
   );

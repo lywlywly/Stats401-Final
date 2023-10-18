@@ -4,13 +4,14 @@
 
 import * as d3 from "d3";
 
-export function vis1() {
-  // 设置 SVG 容器的大小和边距
+export function vis1(radius) {
+  console.log(radius);
   var margin = { top: 20, right: 20, bottom: 30, left: 40 },
-    width = 960 - margin.left - margin.right,
+    width = 700 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-  // 创建 SVG 元素
+  d3.select("#chart-1").select("g").remove();
+
   var svg = d3
     .select("#chart-1")
     .attr("width", width + margin.left + margin.right)
@@ -18,46 +19,59 @@ export function vis1() {
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  // 定义 X 和 Y 轴的比例尺
+  // define scale for x, and y axis
   var x = d3.scaleLinear().range([0, width]);
   var y = d3.scaleLinear().range([height, 0]);
 
-  // 读取 CSV 数据
-  d3.csv("data01.csv").then(function (data) {
-    // 解析数据并设置比例尺的域
-    x.domain(
-      d3.extent(data, function (d) {
-        return +d.num_cnt;
-      })
-    );
-    y.domain(
-      d3.extent(data, function (d) {
-        return +d.draw_cnt;
-      })
-    );
+  let zoom = d3.zoom().on("zoom", handleZoom);
 
-    // 添加 X 轴
-    svg
-      .append("g")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+  function handleZoom(e) {
+    d3.select("#chart-1 g").attr("transform", e.transform);
+    // draw();
+  }
 
-    // 添加 Y 轴
-    svg.append("g").call(d3.axisLeft(y));
+  function initZoom() {
+    d3.select("#chart-1").call(zoom);
+  }
 
-    // 添加散点图
-    svg
-      .selectAll("dot")
-      .data(data)
-      .enter()
-      .append("circle")
-      .attr("r", 3.5)
-      .attr("cx", function (d) {
-        return x(d.num_cnt);
-      })
-      .attr("cy", function (d) {
-        return y(d.draw_cnt);
-      })
-      .style("fill", "#69b3a2");
-  });
+  function draw() {
+    d3.csv("overall_results.csv").then((data) => {
+      // axis domain
+      x.domain([0, 270]);
+      y.domain([0, 120]);
+
+      // x axis
+      svg
+        .append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x).ticks(30));
+
+      // y axis
+      svg.append("g").call(d3.axisLeft(y).ticks(24));
+
+      svg
+        .selectAll("dot")
+        .data(data)
+        .enter()
+        .append("circle")
+        .attr("r", radius)
+        .attr("cx", (d) => x(d.num_cnt))
+        .attr("cy", (d) => y(d.draw_cnt))
+        .attr(
+          "onclick",
+          (d) =>
+            `window.open('large_file/player_data/${d.filename}', '_blank');`
+        )
+        .style("fill", "#69b3a2")
+        .append("title")
+        .text(
+          (d, i) =>
+            `average ${Number(d.draw_cnt).toFixed(2)} polls to have ${
+              d.num_cnt
+            } 5-tier items`
+        );
+    });
+  }
+  initZoom();
+  draw();
 }

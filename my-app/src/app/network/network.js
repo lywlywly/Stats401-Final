@@ -6,7 +6,7 @@ import * as d3 from "d3";
 
 export function network() {
   const width = 600;
-  const height = 800;
+  const height = 600;
 
   let processedData; // Variable to store processed data
   let nodes = [];

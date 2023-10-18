@@ -7,10 +7,11 @@ export const D3Graph = function (props: {
   allData: GachaItem[] | undefined;
 }): React.JSX.Element {
   function drawChart() {
-    const h = 700;
-    const w = 700;
+    const h = 4000;
+    const w = 750;
     d3.select(".canvas-div").select("svg").remove();
     const svg = d3.select(".canvas-div").append("svg");
+    svg.attr("width", w).attr("height", h);
     // console.log(allData.length);
     // if (allData.length == 1) return;
     const mapValueToColor = (value: number) => {
@@ -26,10 +27,6 @@ export const D3Graph = function (props: {
       .attr("x", 50)
       .style("fill", "#ff698d")
       .text(props.allData[props.allData.length - 1]?.time);
-
-    svg
-      .attr("width", w)
-      .attr("height", h)
 
     svg
       .selectAll("rect")
@@ -85,8 +82,11 @@ export const D3Graph = function (props: {
   }, [props.allData]);
 
   return (
-    <div className="canvas-div">
-      <svg></svg>
+    <div
+      className="canvas-div"
+      style={{ height: "450px", width: "max-content", overflowY: "scroll" }}
+    >
+      <svg style={{ width: "750" }}></svg>
     </div>
   );
 };

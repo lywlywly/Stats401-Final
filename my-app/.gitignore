@@ -36,3 +36,6 @@ next-env.d.ts
 
 # binary files
 # *.png
+
+# large file
+large_file

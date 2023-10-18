@@ -15,8 +15,6 @@ export const Control = function (props: {
   const [checked, setChecked] = useState(true);
   return (
     <>
-      {" "}
-      <button onClick={props.print}>get data</button>
       <button onClick={props.launch}>launch</button>
       <button onClick={props.pause}>pause</button>
       <input
@@ -25,6 +23,7 @@ export const Control = function (props: {
           props.setauthToken(e.target.value);
         }}
       ></input>
+      <button onClick={props.print}>get data</button>
       <select
         onChange={(e) => {
           switch (e.target.value) {
