@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import * as d3 from "d3";
-import { GachaItem, regular } from "./page";
+import { GachaItem } from "./page";
 
 export const D3Graph = function (props: {
   allData: GachaItem[] | undefined;

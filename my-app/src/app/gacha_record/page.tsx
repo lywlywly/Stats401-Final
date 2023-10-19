@@ -32,7 +32,7 @@ export interface GachaItem {
   id: string;
 }
 
-export const regular = [
+const regular: string[] = [
   "Dehya",
   "Diluc",
   "Jean",
