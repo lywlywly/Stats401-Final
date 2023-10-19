@@ -5,10 +5,12 @@
 import * as d3 from "d3";
 
 export function vis3() {
-  let svg, xScale, yScale, width, height, groupedData;
+  let svg, xScale, yScale, width, height, groupedData, colorScale;
   let currentIndex = 0;
   let isPlaying = false;
   let currentDate = "";
+
+  colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
   d3.csv("all_data.csv").then((data) => {
     const fiveStarCharacters = data.filter(
@@ -33,6 +35,7 @@ export function vis3() {
     );
 
     const allNames = [...new Set(groupedData.map((d) => d.Name))];
+    colorScale.domain(allNames);
     let latestCumulativeCounts = {};
     allNames.forEach((name) => (latestCumulativeCounts[name] = 0));
 
@@ -114,6 +117,8 @@ export function vis3() {
 
     const dataToShow = groupedData.filter((d) => d.Time === currentDate);
 
+    dataToShow.sort((a, b) => a.CumulativeCount - b.CumulativeCount);
+
     updateChart(dataToShow);
 
     currentIndex++;
@@ -121,17 +126,37 @@ export function vis3() {
   }
 
   function updateChart(data) {
-    svg.selectAll("rect").remove();
+    const allNamesSorted = [...new Set(groupedData.map((d) => d.Name))].sort(
+      (a, b) => {
+        const aData = data.find((d) => d.Name === a) || { CumulativeCount: 0 };
+        const bData = data.find((d) => d.Name === b) || { CumulativeCount: 0 };
+        return aData.CumulativeCount - bData.CumulativeCount;
+      }
+    );
+    yScale.domain(allNamesSorted);
 
-    svg
-      .selectAll("rect")
-      .data(data, (d) => d.Name)
+    const bars = svg.selectAll("rect").data(data, (d) => d.Name);
+
+    bars.exit().remove();
+
+    bars
       .enter()
       .append("rect")
-      .attr("y", (d) => yScale(d.Name))
       .attr("x", 0)
       .attr("height", yScale.bandwidth())
+      .attr("fill", (d) => colorScale(d.Name))
+      .attr("y", (d) => yScale(d.Name))
+      .merge(bars)
+      .transition()
+      .duration(50)
       .attr("width", (d) => xScale(d.CumulativeCount))
-      .attr("fill", "#007BFF");
+      .attr("y", (d) => yScale(d.Name));
+
+    svg.selectAll("g").remove();
+    svg.append("g").call(d3.axisLeft(yScale));
+    svg
+      .append("g")
+      .attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(xScale));
   }
 }
