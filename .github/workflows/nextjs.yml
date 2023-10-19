@@ -31,6 +31,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Change directory
+        run: cd my-app
       - name: Detect package manager
         id: detect-package-manager
         run: |
