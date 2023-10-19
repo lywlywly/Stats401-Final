@@ -73,7 +73,7 @@ export const D3Graph = function (props: {
       .attr("x", (d, i) => 0)
       .attr("width", 40)
       .attr("height", 40)
-      .attr("href", (d, i) => `/Stats401-Final/assets/${d.en_name}.png`)
+      .attr("href", (d, i) => `assets/${d.en_name}.png`)
       .append("title")
       .text((d, i) => `${d.name} - ${d.time}`);
   }
